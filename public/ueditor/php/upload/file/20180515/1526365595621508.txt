@@ -1,0 +1,37 @@
+《1》bootstrap:
+         http://v3.bootcss.com/
+《2》angular.js:
+        http://www.apjs.net/
+         http://www.tuicool.com/articles/bYf2Mrn
+        https://nate-river.github.io/blog/2016/06/04/angular-basic.html
+《3》nate-river:
+        http://nate-river.github.io/blog/
+《4》我的git:
+       https://github.com/twbs/bootstrap
+《5》javascript插件：
+       http://v2.bootcss.com/javascript.html
+《6》Swipper:
+       http://www.swiper.com.cn/api/start/2014/1218/140.html
+《7》query之家
+       http://www.htmleaf.com/css3/ui-design/201702164355.html
+《8》阿里巴巴矢量图标库：
+      http://www.iconfont.cn/search?q=搜索#
+《9》FLEX布局：
+      http://www.ruanyifeng.com/blog/2015/07/flex-grammar.html?utm_source=tuicool
+《10》CSS滤镜：
+     http://www.360doc.com/content/14/0512/19/2633_377022299.shtml
+《11》爱编程：
+     http://www.w2bc.com/shili/进度条
+《12》CSDN博客：
+     http://blog.csdn.net/renfufei/article/details/51494396
+《13》node.js下载：
+    https://nodejs.org/en/
+《14》sublime安装：
+   http://www.sublimetext.com/3
+《15》sass安装步骤：
+     1.下载node.js,      查看版本号   node -v；
+     2.安装cnpm  打开命令行cmd  cd到用户 执行npm install cnpm；
+     3.npm install -g cnpm     查看版本号   cnpm -v;
+     4.cnpm安装好之后安装sass   cnpm install -g node-sass;
+     5.检测是否安装成功    node-sass -v;
+     6.node-sass -w index.scss index.css;

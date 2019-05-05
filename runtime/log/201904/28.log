@@ -1,0 +1,2522 @@
+---------------------------------------------------------------
+[ 2019-04-28T23:01:02+08:00 ] 127.0.0.1 GET www.ky.demo/
+[运行时间：2.712098s] [吞吐率：0.37req/s] [内存消耗：1,715.95kb] [文件加载：46]
+[ info ] [ LANG ] D:\software\ITtools\myphp_www\PHPTutorial\WWW\ky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.ky.demo',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.108 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'purpose' => 'prefetch',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\software\ITtools\myphp_www\PHPTutorial\WWW\ky\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\software\ITtools\myphp_www\PHPTutorial\WWW\ky\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-28T23:01:02+08:00 ] 127.0.0.1 GET www.ky.demo/
+[运行时间：0.357354s] [吞吐率：2.80req/s] [内存消耗：1,715.77kb] [文件加载：46]
+[ info ] [ LANG ] D:\software\ITtools\myphp_www\PHPTutorial\WWW\ky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.ky.demo',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.108 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\software\ITtools\myphp_www\PHPTutorial\WWW\ky\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\software\ITtools\myphp_www\PHPTutorial\WWW\ky\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-28T23:01:05+08:00 ] 127.0.0.1 GET www.ky.demo/index/user/login.html
+[运行时间：0.705572s] [吞吐率：1.42req/s] [内存消耗：2,992.79kb] [文件加载：55]
+[ info ] [ LANG ] D:\software\ITtools\myphp_www\PHPTutorial\WWW\ky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.ky.demo',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.108 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://www.ky.demo/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=2ggdduv29dlplkl2b4jlpf4q11',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\User->login[ D:\software\ITtools\myphp_www\PHPTutorial\WWW\ky\application\index\controller\User.php ]
+[ info ] [ VIEW ] D:\software\ITtools\myphp_www\PHPTutorial\WWW\ky\public/../application/index\view\user\login.html [ array (
+  0 => 'bmres',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.014033s ] mysql:host=127.0.0.1;dbname=keyan;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ky_department` [ RunTime:0.092542s ]
+[ sql ] [ SQL ] SELECT * FROM `ky_department` WHERE  (  is_delete = 0 ) ORDER BY `weight` DESC [ RunTime:0.003892s ]
+---------------------------------------------------------------
+[ 2019-04-28T23:01:23+08:00 ] 127.0.0.1 POST www.ky.demo/index/user/checklogin.html
+[运行时间：0.352921s] [吞吐率：2.83req/s] [内存消耗：2,988.59kb] [文件加载：55]
+[ info ] [ LANG ] D:\software\ITtools\myphp_www\PHPTutorial\WWW\ky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'checklogin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.ky.demo',
+  'connection' => 'keep-alive',
+  'content-length' => '148',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.ky.demo',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.108 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.ky.demo/index/user/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=2ggdduv29dlplkl2b4jlpf4q11',
+)
+[ info ] [ PARAM ] array (
+  'username' => '115060200118',
+  'password' => '123456',
+  '_rememberMe' => 'on',
+  'lt' => '_c4ABC69AD-68A2-3C8E-7105-032887E6262D_k023C6C50-C586-46CC-4471-D0B6D3EE14B7',
+  '_eventId' => 'submit',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\User->checkLogin[ D:\software\ITtools\myphp_www\PHPTutorial\WWW\ky\application\index\controller\User.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002918s ] mysql:host=127.0.0.1;dbname=keyan;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ky_department` [ RunTime:0.048218s ]
+[ sql ] [ SQL ] SELECT * FROM `ky_department` WHERE  (  is_delete = 0 ) ORDER BY `weight` DESC [ RunTime:0.001555s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ky_user` [ RunTime:0.065885s ]
+[ sql ] [ SQL ] SELECT * FROM `ky_user` WHERE  `username` = '115060200118' LIMIT 1 [ RunTime:0.001201s ]
+[ sql ] [ SQL ] SELECT * FROM `ky_user` WHERE  `username` = '115060200118'  AND `password` = '123456' LIMIT 1 [ RunTime:0.001545s ]
+---------------------------------------------------------------
+[ 2019-04-28T23:01:28+08:00 ] 127.0.0.1 POST www.ky.demo/index/user/checklogin.html
+[运行时间：0.255293s] [吞吐率：3.92req/s] [内存消耗：2,988.59kb] [文件加载：55]
+[ info ] [ LANG ] D:\software\ITtools\myphp_www\PHPTutorial\WWW\ky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'checklogin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.ky.demo',
+  'connection' => 'keep-alive',
+  'content-length' => '148',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.ky.demo',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.108 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.ky.demo/index/user/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=2ggdduv29dlplkl2b4jlpf4q11',
+)
+[ info ] [ PARAM ] array (
+  'username' => '115060200118',
+  'password' => '123456',
+  '_rememberMe' => 'on',
+  'lt' => '_c4ABC69AD-68A2-3C8E-7105-032887E6262D_k023C6C50-C586-46CC-4471-D0B6D3EE14B7',
+  '_eventId' => 'submit',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\User->checkLogin[ D:\software\ITtools\myphp_www\PHPTutorial\WWW\ky\application\index\controller\User.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001932s ] mysql:host=127.0.0.1;dbname=keyan;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ky_department` [ RunTime:0.052852s ]
+[ sql ] [ SQL ] SELECT * FROM `ky_department` WHERE  (  is_delete = 0 ) ORDER BY `weight` DESC [ RunTime:0.001535s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ky_user` [ RunTime:0.037347s ]
+[ sql ] [ SQL ] SELECT * FROM `ky_user` WHERE  `username` = '115060200118' LIMIT 1 [ RunTime:0.001039s ]
+[ sql ] [ SQL ] SELECT * FROM `ky_user` WHERE  `username` = '115060200118'  AND `password` = '123456' LIMIT 1 [ RunTime:0.001120s ]
+---------------------------------------------------------------
+[ 2019-04-28T23:01:32+08:00 ] 127.0.0.1 POST www.ky.demo/index/user/checklogin.html
+[运行时间：0.255281s] [吞吐率：3.92req/s] [内存消耗：2,988.59kb] [文件加载：55]
+[ info ] [ LANG ] D:\software\ITtools\myphp_www\PHPTutorial\WWW\ky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'checklogin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.ky.demo',
+  'connection' => 'keep-alive',
+  'content-length' => '147',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.ky.demo',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.108 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.ky.demo/index/user/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=2ggdduv29dlplkl2b4jlpf4q11',
+)
+[ info ] [ PARAM ] array (
+  'username' => '115060200118',
+  'password' => '00000',
+  '_rememberMe' => 'on',
+  'lt' => '_c4ABC69AD-68A2-3C8E-7105-032887E6262D_k023C6C50-C586-46CC-4471-D0B6D3EE14B7',
+  '_eventId' => 'submit',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\User->checkLogin[ D:\software\ITtools\myphp_www\PHPTutorial\WWW\ky\application\index\controller\User.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003318s ] mysql:host=127.0.0.1;dbname=keyan;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ky_department` [ RunTime:0.050898s ]
+[ sql ] [ SQL ] SELECT * FROM `ky_department` WHERE  (  is_delete = 0 ) ORDER BY `weight` DESC [ RunTime:0.001351s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ky_user` [ RunTime:0.035186s ]
+[ sql ] [ SQL ] SELECT * FROM `ky_user` WHERE  `username` = '115060200118' LIMIT 1 [ RunTime:0.001031s ]
+[ sql ] [ SQL ] SELECT * FROM `ky_user` WHERE  `username` = '115060200118'  AND `password` = '00000' LIMIT 1 [ RunTime:0.000990s ]
+---------------------------------------------------------------
+[ 2019-04-28T23:01:37+08:00 ] 127.0.0.1 POST www.ky.demo/index/user/checklogin.html
+[运行时间：0.263396s] [吞吐率：3.80req/s] [内存消耗：2,988.59kb] [文件加载：55]
+[ info ] [ LANG ] D:\software\ITtools\myphp_www\PHPTutorial\WWW\ky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'checklogin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.ky.demo',
+  'connection' => 'keep-alive',
+  'content-length' => '148',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.ky.demo',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.108 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.ky.demo/index/user/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=2ggdduv29dlplkl2b4jlpf4q11',
+)
+[ info ] [ PARAM ] array (
+  'username' => '115060200118',
+  'password' => '000000',
+  '_rememberMe' => 'on',
+  'lt' => '_c4ABC69AD-68A2-3C8E-7105-032887E6262D_k023C6C50-C586-46CC-4471-D0B6D3EE14B7',
+  '_eventId' => 'submit',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\User->checkLogin[ D:\software\ITtools\myphp_www\PHPTutorial\WWW\ky\application\index\controller\User.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001735s ] mysql:host=127.0.0.1;dbname=keyan;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ky_department` [ RunTime:0.060423s ]
+[ sql ] [ SQL ] SELECT * FROM `ky_department` WHERE  (  is_delete = 0 ) ORDER BY `weight` DESC [ RunTime:0.001389s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ky_user` [ RunTime:0.037719s ]
+[ sql ] [ SQL ] SELECT * FROM `ky_user` WHERE  `username` = '115060200118' LIMIT 1 [ RunTime:0.001030s ]
+[ sql ] [ SQL ] SELECT * FROM `ky_user` WHERE  `username` = '115060200118'  AND `password` = '000000' LIMIT 1 [ RunTime:0.001496s ]
+---------------------------------------------------------------
+[ 2019-04-28T23:01:47+08:00 ] 127.0.0.1 POST www.ky.demo/index/user/checklogin.html
+[运行时间：0.251790s] [吞吐率：3.97req/s] [内存消耗：2,988.47kb] [文件加载：55]
+[ info ] [ LANG ] D:\software\ITtools\myphp_www\PHPTutorial\WWW\ky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'checklogin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.ky.demo',
+  'connection' => 'keep-alive',
+  'content-length' => '141',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.ky.demo',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.108 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.ky.demo/index/user/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=2ggdduv29dlplkl2b4jlpf4q11',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '123456',
+  '_rememberMe' => 'on',
+  'lt' => '_c4ABC69AD-68A2-3C8E-7105-032887E6262D_k023C6C50-C586-46CC-4471-D0B6D3EE14B7',
+  '_eventId' => 'submit',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\User->checkLogin[ D:\software\ITtools\myphp_www\PHPTutorial\WWW\ky\application\index\controller\User.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001725s ] mysql:host=127.0.0.1;dbname=keyan;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ky_department` [ RunTime:0.047408s ]
+[ sql ] [ SQL ] SELECT * FROM `ky_department` WHERE  (  is_delete = 0 ) ORDER BY `weight` DESC [ RunTime:0.001346s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ky_user` [ RunTime:0.036141s ]
+[ sql ] [ SQL ] SELECT * FROM `ky_user` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.001074s ]
+[ sql ] [ SQL ] SELECT * FROM `ky_user` WHERE  `username` = 'admin'  AND `password` = '123456' LIMIT 1 [ RunTime:0.001756s ]
+---------------------------------------------------------------
+[ 2019-04-28T23:01:52+08:00 ] 127.0.0.1 POST www.ky.demo/index/user/checklogin.html
+[运行时间：0.429470s] [吞吐率：2.33req/s] [内存消耗：3,104.05kb] [文件加载：59]
+[ info ] [ LANG ] D:\software\ITtools\myphp_www\PHPTutorial\WWW\ky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'checklogin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.ky.demo',
+  'connection' => 'keep-alive',
+  'content-length' => '140',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.ky.demo',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.108 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.ky.demo/index/user/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=2ggdduv29dlplkl2b4jlpf4q11',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => 'admin',
+  '_rememberMe' => 'on',
+  'lt' => '_c4ABC69AD-68A2-3C8E-7105-032887E6262D_k023C6C50-C586-46CC-4471-D0B6D3EE14B7',
+  '_eventId' => 'submit',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\User->checkLogin[ D:\software\ITtools\myphp_www\PHPTutorial\WWW\ky\application\index\controller\User.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001594s ] mysql:host=127.0.0.1;dbname=keyan;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ky_department` [ RunTime:0.051779s ]
+[ sql ] [ SQL ] SELECT * FROM `ky_department` WHERE  (  is_delete = 0 ) ORDER BY `weight` DESC [ RunTime:0.001370s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ky_user` [ RunTime:0.040528s ]
+[ sql ] [ SQL ] SELECT * FROM `ky_user` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.001261s ]
+[ sql ] [ SQL ] SELECT * FROM `ky_user` WHERE  `username` = 'admin'  AND `password` = 'admin' LIMIT 1 [ RunTime:0.001393s ]
+[ sql ] [ SQL ] UPDATE `ky_user`  SET `login_time`=1556463712,`update_time`=1556463712  WHERE  `id` = 1 [ RunTime:0.007707s ]
+---------------------------------------------------------------
+[ 2019-04-28T23:01:54+08:00 ] 127.0.0.1 GET www.ky.demo/index.php/index/index/index
+[运行时间：0.372516s] [吞吐率：2.68req/s] [内存消耗：2,895.83kb] [文件加载：55]
+[ info ] [ LANG ] D:\software\ITtools\myphp_www\PHPTutorial\WWW\ky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.ky.demo',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.108 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://www.ky.demo/index/user/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=2ggdduv29dlplkl2b4jlpf4q11; user_id=1; user_info=think%3A%7B%22id%22%3A%221%22%2C%22username%22%3A%22admin%22%2C%22password%22%3A%22admin%22%2C%22sex%22%3A%221%22%2C%22nickname%22%3A%22Admin%22%2C%22title%22%3A%221%22%2C%22email%22%3A%221592328848%2540qq.com%22%2C%22phone%22%3A%2215779478453%22%2C%22birthday%22%3A%221555084800%22%2C%22political_status%22%3A%22%25E4%25B8%25AD%25E5%2585%25B1%25E5%2585%259A%25E5%2591%2598%22%2C%22degree%22%3A%22%25E5%25AD%25A6%25E5%25A3%25AB%22%2C%22eduction%22%3A%22%25E6%259C%25AC%25E7%25A7%2591%22%2C%22role%22%3A%221%22%2C%22login_time%22%3A%221556463712%22%2C%22logout_time%22%3A%221556369013%22%2C%22create_time%22%3A%221556312363%22%2C%22update_time%22%3A%221556463712%22%2C%22delete_time%22%3A0%2C%22is_delete%22%3A0%2C%22bmid%22%3A%2222%22%2C%22discriptines%22%3A%22%22%2C%22discriptines_one%22%3A%22%22%2C%22status%22%3A%221%22%7D',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\software\ITtools\myphp_www\PHPTutorial\WWW\ky\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\software\ITtools\myphp_www\PHPTutorial\WWW\ky\public/../application/index\view\index\index.html [ array (
+  0 => 'role',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001608s ] mysql:host=127.0.0.1;dbname=keyan;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ky_user` [ RunTime:0.055482s ]
+[ sql ] [ SQL ] SELECT * FROM `ky_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001604s ]
+---------------------------------------------------------------
+[ 2019-04-28T23:01:54+08:00 ] 127.0.0.1 GET www.ky.demo/index.php/index/index/lib/jquery.contextmenu/jquery.contextmenu.r2.js
+[运行时间：0.730409s] [吞吐率：1.37req/s] [内存消耗：1,689.63kb] [文件加载：46]
+[ info ] [ LANG ] D:\software\ITtools\myphp_www\PHPTutorial\WWW\ky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'lib',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.ky.demo',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.108 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://www.ky.demo/index.php/index/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=2ggdduv29dlplkl2b4jlpf4q11; user_id=1; user_info=think%3A%7B%22id%22%3A%221%22%2C%22username%22%3A%22admin%22%2C%22password%22%3A%22admin%22%2C%22sex%22%3A%221%22%2C%22nickname%22%3A%22Admin%22%2C%22title%22%3A%221%22%2C%22email%22%3A%221592328848%2540qq.com%22%2C%22phone%22%3A%2215779478453%22%2C%22birthday%22%3A%221555084800%22%2C%22political_status%22%3A%22%25E4%25B8%25AD%25E5%2585%25B1%25E5%2585%259A%25E5%2591%2598%22%2C%22degree%22%3A%22%25E5%25AD%25A6%25E5%25A3%25AB%22%2C%22eduction%22%3A%22%25E6%259C%25AC%25E7%25A7%2591%22%2C%22role%22%3A%221%22%2C%22login_time%22%3A%221556463712%22%2C%22logout_time%22%3A%221556369013%22%2C%22create_time%22%3A%221556312363%22%2C%22update_time%22%3A%221556463712%22%2C%22delete_time%22%3A0%2C%22is_delete%22%3A0%2C%22bmid%22%3A%2222%22%2C%22discriptines%22%3A%22%22%2C%22discriptines_one%22%3A%22%22%2C%22status%22%3A%221%22%7D',
+)
+[ info ] [ PARAM ] array (
+  'contextmenu' => 'jquery.contextmenu.r2.js',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-28T23:01:54+08:00 ] 127.0.0.1 GET www.ky.demo/index.php/index/index/welcome.html
+[运行时间：0.725861s] [吞吐率：1.38req/s] [内存消耗：1,667.91kb] [文件加载：45]
+[ info ] [ LANG ] D:\software\ITtools\myphp_www\PHPTutorial\WWW\ky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'welcome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.ky.demo',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.108 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://www.ky.demo/index.php/index/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=2ggdduv29dlplkl2b4jlpf4q11; user_id=1; user_info=think%3A%7B%22id%22%3A%221%22%2C%22username%22%3A%22admin%22%2C%22password%22%3A%22admin%22%2C%22sex%22%3A%221%22%2C%22nickname%22%3A%22Admin%22%2C%22title%22%3A%221%22%2C%22email%22%3A%221592328848%2540qq.com%22%2C%22phone%22%3A%2215779478453%22%2C%22birthday%22%3A%221555084800%22%2C%22political_status%22%3A%22%25E4%25B8%25AD%25E5%2585%25B1%25E5%2585%259A%25E5%2591%2598%22%2C%22degree%22%3A%22%25E5%25AD%25A6%25E5%25A3%25AB%22%2C%22eduction%22%3A%22%25E6%259C%25AC%25E7%25A7%2591%22%2C%22role%22%3A%221%22%2C%22login_time%22%3A%221556463712%22%2C%22logout_time%22%3A%221556369013%22%2C%22create_time%22%3A%221556312363%22%2C%22update_time%22%3A%221556463712%22%2C%22delete_time%22%3A0%2C%22is_delete%22%3A0%2C%22bmid%22%3A%2222%22%2C%22discriptines%22%3A%22%22%2C%22discriptines_one%22%3A%22%22%2C%22status%22%3A%221%22%7D',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->welcome[ D:\software\ITtools\myphp_www\PHPTutorial\WWW\ky\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\software\ITtools\myphp_www\PHPTutorial\WWW\ky\public/../application/index\view\index\welcome.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-28T23:01:55+08:00 ] 127.0.0.1 GET www.ky.demo/index.php/index/index/lib/jquery/1.9.1/jquery.min.js
+[运行时间：0.160361s] [吞吐率：6.24req/s] [内存消耗：1,689.57kb] [文件加载：46]
+[ info ] [ LANG ] D:\software\ITtools\myphp_www\PHPTutorial\WWW\ky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'lib',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.ky.demo',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.108 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://www.ky.demo/index.php/index/index/welcome.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=2ggdduv29dlplkl2b4jlpf4q11; user_id=1; user_info=think%3A%7B%22id%22%3A%221%22%2C%22username%22%3A%22admin%22%2C%22password%22%3A%22admin%22%2C%22sex%22%3A%221%22%2C%22nickname%22%3A%22Admin%22%2C%22title%22%3A%221%22%2C%22email%22%3A%221592328848%2540qq.com%22%2C%22phone%22%3A%2215779478453%22%2C%22birthday%22%3A%221555084800%22%2C%22political_status%22%3A%22%25E4%25B8%25AD%25E5%2585%25B1%25E5%2585%259A%25E5%2591%2598%22%2C%22degree%22%3A%22%25E5%25AD%25A6%25E5%25A3%25AB%22%2C%22eduction%22%3A%22%25E6%259C%25AC%25E7%25A7%2591%22%2C%22role%22%3A%221%22%2C%22login_time%22%3A%221556463712%22%2C%22logout_time%22%3A%221556369013%22%2C%22create_time%22%3A%221556312363%22%2C%22update_time%22%3A%221556463712%22%2C%22delete_time%22%3A0%2C%22is_delete%22%3A0%2C%22bmid%22%3A%2222%22%2C%22discriptines%22%3A%22%22%2C%22discriptines_one%22%3A%22%22%2C%22status%22%3A%221%22%7D',
+)
+[ info ] [ PARAM ] array (
+  'jquery' => '1.9.1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-28T23:01:55+08:00 ] 127.0.0.1 GET www.ky.demo/index.php/index/index/static/h-ui/js/H-ui.min.js
+[运行时间：0.185526s] [吞吐率：5.39req/s] [内存消耗：1,689.45kb] [文件加载：46]
+[ info ] [ LANG ] D:\software\ITtools\myphp_www\PHPTutorial\WWW\ky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'static',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.ky.demo',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.108 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://www.ky.demo/index.php/index/index/welcome.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=2ggdduv29dlplkl2b4jlpf4q11; user_id=1; user_info=think%3A%7B%22id%22%3A%221%22%2C%22username%22%3A%22admin%22%2C%22password%22%3A%22admin%22%2C%22sex%22%3A%221%22%2C%22nickname%22%3A%22Admin%22%2C%22title%22%3A%221%22%2C%22email%22%3A%221592328848%2540qq.com%22%2C%22phone%22%3A%2215779478453%22%2C%22birthday%22%3A%221555084800%22%2C%22political_status%22%3A%22%25E4%25B8%25AD%25E5%2585%25B1%25E5%2585%259A%25E5%2591%2598%22%2C%22degree%22%3A%22%25E5%25AD%25A6%25E5%25A3%25AB%22%2C%22eduction%22%3A%22%25E6%259C%25AC%25E7%25A7%2591%22%2C%22role%22%3A%221%22%2C%22login_time%22%3A%221556463712%22%2C%22logout_time%22%3A%221556369013%22%2C%22create_time%22%3A%221556312363%22%2C%22update_time%22%3A%221556463712%22%2C%22delete_time%22%3A0%2C%22is_delete%22%3A0%2C%22bmid%22%3A%2222%22%2C%22discriptines%22%3A%22%22%2C%22discriptines_one%22%3A%22%22%2C%22status%22%3A%221%22%7D',
+)
+[ info ] [ PARAM ] array (
+  'ui' => 'js',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-28T23:02:00+08:00 ] 127.0.0.1 GET www.ky.demo/index.php/index/index/admin-role.html
+[运行时间：0.139439s] [吞吐率：7.17req/s] [内存消耗：1,689.93kb] [文件加载：46]
+[ info ] [ LANG ] D:\software\ITtools\myphp_www\PHPTutorial\WWW\ky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'admin-role',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.ky.demo',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.108 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://www.ky.demo/index.php/index/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=2ggdduv29dlplkl2b4jlpf4q11; user_id=1; user_info=think%3A%7B%22id%22%3A%221%22%2C%22username%22%3A%22admin%22%2C%22password%22%3A%22admin%22%2C%22sex%22%3A%221%22%2C%22nickname%22%3A%22Admin%22%2C%22title%22%3A%221%22%2C%22email%22%3A%221592328848%2540qq.com%22%2C%22phone%22%3A%2215779478453%22%2C%22birthday%22%3A%221555084800%22%2C%22political_status%22%3A%22%25E4%25B8%25AD%25E5%2585%25B1%25E5%2585%259A%25E5%2591%2598%22%2C%22degree%22%3A%22%25E5%25AD%25A6%25E5%25A3%25AB%22%2C%22eduction%22%3A%22%25E6%259C%25AC%25E7%25A7%2591%22%2C%22role%22%3A%221%22%2C%22login_time%22%3A%221556463712%22%2C%22logout_time%22%3A%221556369013%22%2C%22create_time%22%3A%221556312363%22%2C%22update_time%22%3A%221556463712%22%2C%22delete_time%22%3A0%2C%22is_delete%22%3A0%2C%22bmid%22%3A%2222%22%2C%22discriptines%22%3A%22%22%2C%22discriptines_one%22%3A%22%22%2C%22status%22%3A%221%22%7D',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-28T23:02:03+08:00 ] 127.0.0.1 GET www.ky.demo/index.php/index/index/admin-permission.html
+[运行时间：0.116715s] [吞吐率：8.57req/s] [内存消耗：1,689.92kb] [文件加载：46]
+[ info ] [ LANG ] D:\software\ITtools\myphp_www\PHPTutorial\WWW\ky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'admin-permission',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.ky.demo',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.108 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://www.ky.demo/index.php/index/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=2ggdduv29dlplkl2b4jlpf4q11; user_id=1; user_info=think%3A%7B%22id%22%3A%221%22%2C%22username%22%3A%22admin%22%2C%22password%22%3A%22admin%22%2C%22sex%22%3A%221%22%2C%22nickname%22%3A%22Admin%22%2C%22title%22%3A%221%22%2C%22email%22%3A%221592328848%2540qq.com%22%2C%22phone%22%3A%2215779478453%22%2C%22birthday%22%3A%221555084800%22%2C%22political_status%22%3A%22%25E4%25B8%25AD%25E5%2585%25B1%25E5%2585%259A%25E5%2591%2598%22%2C%22degree%22%3A%22%25E5%25AD%25A6%25E5%25A3%25AB%22%2C%22eduction%22%3A%22%25E6%259C%25AC%25E7%25A7%2591%22%2C%22role%22%3A%221%22%2C%22login_time%22%3A%221556463712%22%2C%22logout_time%22%3A%221556369013%22%2C%22create_time%22%3A%221556312363%22%2C%22update_time%22%3A%221556463712%22%2C%22delete_time%22%3A0%2C%22is_delete%22%3A0%2C%22bmid%22%3A%2222%22%2C%22discriptines%22%3A%22%22%2C%22discriptines_one%22%3A%22%22%2C%22status%22%3A%221%22%7D',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-28T23:02:04+08:00 ] 127.0.0.1 GET www.ky.demo/index.php/index/index/admin-role.html
+[运行时间：0.110356s] [吞吐率：9.06req/s] [内存消耗：1,689.93kb] [文件加载：46]
+[ info ] [ LANG ] D:\software\ITtools\myphp_www\PHPTutorial\WWW\ky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'admin-role',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.ky.demo',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.108 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://www.ky.demo/index.php/index/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=2ggdduv29dlplkl2b4jlpf4q11; user_id=1; user_info=think%3A%7B%22id%22%3A%221%22%2C%22username%22%3A%22admin%22%2C%22password%22%3A%22admin%22%2C%22sex%22%3A%221%22%2C%22nickname%22%3A%22Admin%22%2C%22title%22%3A%221%22%2C%22email%22%3A%221592328848%2540qq.com%22%2C%22phone%22%3A%2215779478453%22%2C%22birthday%22%3A%221555084800%22%2C%22political_status%22%3A%22%25E4%25B8%25AD%25E5%2585%25B1%25E5%2585%259A%25E5%2591%2598%22%2C%22degree%22%3A%22%25E5%25AD%25A6%25E5%25A3%25AB%22%2C%22eduction%22%3A%22%25E6%259C%25AC%25E7%25A7%2591%22%2C%22role%22%3A%221%22%2C%22login_time%22%3A%221556463712%22%2C%22logout_time%22%3A%221556369013%22%2C%22create_time%22%3A%221556312363%22%2C%22update_time%22%3A%221556463712%22%2C%22delete_time%22%3A0%2C%22is_delete%22%3A0%2C%22bmid%22%3A%2222%22%2C%22discriptines%22%3A%22%22%2C%22discriptines_one%22%3A%22%22%2C%22status%22%3A%221%22%7D',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-28T23:02:05+08:00 ] 127.0.0.1 GET www.ky.demo/index.php/index/index/admin-permission.html
+[运行时间：0.112848s] [吞吐率：8.86req/s] [内存消耗：1,689.92kb] [文件加载：46]
+[ info ] [ LANG ] D:\software\ITtools\myphp_www\PHPTutorial\WWW\ky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'admin-permission',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.ky.demo',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.108 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://www.ky.demo/index.php/index/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=2ggdduv29dlplkl2b4jlpf4q11; user_id=1; user_info=think%3A%7B%22id%22%3A%221%22%2C%22username%22%3A%22admin%22%2C%22password%22%3A%22admin%22%2C%22sex%22%3A%221%22%2C%22nickname%22%3A%22Admin%22%2C%22title%22%3A%221%22%2C%22email%22%3A%221592328848%2540qq.com%22%2C%22phone%22%3A%2215779478453%22%2C%22birthday%22%3A%221555084800%22%2C%22political_status%22%3A%22%25E4%25B8%25AD%25E5%2585%25B1%25E5%2585%259A%25E5%2591%2598%22%2C%22degree%22%3A%22%25E5%25AD%25A6%25E5%25A3%25AB%22%2C%22eduction%22%3A%22%25E6%259C%25AC%25E7%25A7%2591%22%2C%22role%22%3A%221%22%2C%22login_time%22%3A%221556463712%22%2C%22logout_time%22%3A%221556369013%22%2C%22create_time%22%3A%221556312363%22%2C%22update_time%22%3A%221556463712%22%2C%22delete_time%22%3A0%2C%22is_delete%22%3A0%2C%22bmid%22%3A%2222%22%2C%22discriptines%22%3A%22%22%2C%22discriptines_one%22%3A%22%22%2C%22status%22%3A%221%22%7D',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-28T23:02:05+08:00 ] 127.0.0.1 GET www.ky.demo/index.php/index/index/admin-role.html
+[运行时间：0.111141s] [吞吐率：9.00req/s] [内存消耗：1,689.93kb] [文件加载：46]
+[ info ] [ LANG ] D:\software\ITtools\myphp_www\PHPTutorial\WWW\ky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'admin-role',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.ky.demo',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.108 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://www.ky.demo/index.php/index/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=2ggdduv29dlplkl2b4jlpf4q11; user_id=1; user_info=think%3A%7B%22id%22%3A%221%22%2C%22username%22%3A%22admin%22%2C%22password%22%3A%22admin%22%2C%22sex%22%3A%221%22%2C%22nickname%22%3A%22Admin%22%2C%22title%22%3A%221%22%2C%22email%22%3A%221592328848%2540qq.com%22%2C%22phone%22%3A%2215779478453%22%2C%22birthday%22%3A%221555084800%22%2C%22political_status%22%3A%22%25E4%25B8%25AD%25E5%2585%25B1%25E5%2585%259A%25E5%2591%2598%22%2C%22degree%22%3A%22%25E5%25AD%25A6%25E5%25A3%25AB%22%2C%22eduction%22%3A%22%25E6%259C%25AC%25E7%25A7%2591%22%2C%22role%22%3A%221%22%2C%22login_time%22%3A%221556463712%22%2C%22logout_time%22%3A%221556369013%22%2C%22create_time%22%3A%221556312363%22%2C%22update_time%22%3A%221556463712%22%2C%22delete_time%22%3A0%2C%22is_delete%22%3A0%2C%22bmid%22%3A%2222%22%2C%22discriptines%22%3A%22%22%2C%22discriptines_one%22%3A%22%22%2C%22status%22%3A%221%22%7D',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-28T23:02:06+08:00 ] 127.0.0.1 GET www.ky.demo/index.php/index/index/admin-permission.html
+[运行时间：0.108120s] [吞吐率：9.25req/s] [内存消耗：1,689.92kb] [文件加载：46]
+[ info ] [ LANG ] D:\software\ITtools\myphp_www\PHPTutorial\WWW\ky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'admin-permission',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.ky.demo',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.108 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://www.ky.demo/index.php/index/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=2ggdduv29dlplkl2b4jlpf4q11; user_id=1; user_info=think%3A%7B%22id%22%3A%221%22%2C%22username%22%3A%22admin%22%2C%22password%22%3A%22admin%22%2C%22sex%22%3A%221%22%2C%22nickname%22%3A%22Admin%22%2C%22title%22%3A%221%22%2C%22email%22%3A%221592328848%2540qq.com%22%2C%22phone%22%3A%2215779478453%22%2C%22birthday%22%3A%221555084800%22%2C%22political_status%22%3A%22%25E4%25B8%25AD%25E5%2585%25B1%25E5%2585%259A%25E5%2591%2598%22%2C%22degree%22%3A%22%25E5%25AD%25A6%25E5%25A3%25AB%22%2C%22eduction%22%3A%22%25E6%259C%25AC%25E7%25A7%2591%22%2C%22role%22%3A%221%22%2C%22login_time%22%3A%221556463712%22%2C%22logout_time%22%3A%221556369013%22%2C%22create_time%22%3A%221556312363%22%2C%22update_time%22%3A%221556463712%22%2C%22delete_time%22%3A0%2C%22is_delete%22%3A0%2C%22bmid%22%3A%2222%22%2C%22discriptines%22%3A%22%22%2C%22discriptines_one%22%3A%22%22%2C%22status%22%3A%221%22%7D',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-28T23:02:07+08:00 ] 127.0.0.1 GET www.ky.demo/index.php/index/index/admin-role.html
+[运行时间：0.128049s] [吞吐率：7.81req/s] [内存消耗：1,689.93kb] [文件加载：46]
+[ info ] [ LANG ] D:\software\ITtools\myphp_www\PHPTutorial\WWW\ky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'admin-role',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.ky.demo',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.108 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://www.ky.demo/index.php/index/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=2ggdduv29dlplkl2b4jlpf4q11; user_id=1; user_info=think%3A%7B%22id%22%3A%221%22%2C%22username%22%3A%22admin%22%2C%22password%22%3A%22admin%22%2C%22sex%22%3A%221%22%2C%22nickname%22%3A%22Admin%22%2C%22title%22%3A%221%22%2C%22email%22%3A%221592328848%2540qq.com%22%2C%22phone%22%3A%2215779478453%22%2C%22birthday%22%3A%221555084800%22%2C%22political_status%22%3A%22%25E4%25B8%25AD%25E5%2585%25B1%25E5%2585%259A%25E5%2591%2598%22%2C%22degree%22%3A%22%25E5%25AD%25A6%25E5%25A3%25AB%22%2C%22eduction%22%3A%22%25E6%259C%25AC%25E7%25A7%2591%22%2C%22role%22%3A%221%22%2C%22login_time%22%3A%221556463712%22%2C%22logout_time%22%3A%221556369013%22%2C%22create_time%22%3A%221556312363%22%2C%22update_time%22%3A%221556463712%22%2C%22delete_time%22%3A0%2C%22is_delete%22%3A0%2C%22bmid%22%3A%2222%22%2C%22discriptines%22%3A%22%22%2C%22discriptines_one%22%3A%22%22%2C%22status%22%3A%221%22%7D',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-28T23:02:08+08:00 ] 127.0.0.1 GET www.ky.demo/index.php/index/index/admin-permission.html
+[运行时间：0.105350s] [吞吐率：9.49req/s] [内存消耗：1,689.92kb] [文件加载：46]
+[ info ] [ LANG ] D:\software\ITtools\myphp_www\PHPTutorial\WWW\ky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'admin-permission',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.ky.demo',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.108 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://www.ky.demo/index.php/index/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=2ggdduv29dlplkl2b4jlpf4q11; user_id=1; user_info=think%3A%7B%22id%22%3A%221%22%2C%22username%22%3A%22admin%22%2C%22password%22%3A%22admin%22%2C%22sex%22%3A%221%22%2C%22nickname%22%3A%22Admin%22%2C%22title%22%3A%221%22%2C%22email%22%3A%221592328848%2540qq.com%22%2C%22phone%22%3A%2215779478453%22%2C%22birthday%22%3A%221555084800%22%2C%22political_status%22%3A%22%25E4%25B8%25AD%25E5%2585%25B1%25E5%2585%259A%25E5%2591%2598%22%2C%22degree%22%3A%22%25E5%25AD%25A6%25E5%25A3%25AB%22%2C%22eduction%22%3A%22%25E6%259C%25AC%25E7%25A7%2591%22%2C%22role%22%3A%221%22%2C%22login_time%22%3A%221556463712%22%2C%22logout_time%22%3A%221556369013%22%2C%22create_time%22%3A%221556312363%22%2C%22update_time%22%3A%221556463712%22%2C%22delete_time%22%3A0%2C%22is_delete%22%3A0%2C%22bmid%22%3A%2222%22%2C%22discriptines%22%3A%22%22%2C%22discriptines_one%22%3A%22%22%2C%22status%22%3A%221%22%7D',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-28T23:02:08+08:00 ] 127.0.0.1 GET www.ky.demo/index.php/index/index/admin-role.html
+[运行时间：0.109521s] [吞吐率：9.13req/s] [内存消耗：1,689.93kb] [文件加载：46]
+[ info ] [ LANG ] D:\software\ITtools\myphp_www\PHPTutorial\WWW\ky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'admin-role',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.ky.demo',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.108 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://www.ky.demo/index.php/index/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=2ggdduv29dlplkl2b4jlpf4q11; user_id=1; user_info=think%3A%7B%22id%22%3A%221%22%2C%22username%22%3A%22admin%22%2C%22password%22%3A%22admin%22%2C%22sex%22%3A%221%22%2C%22nickname%22%3A%22Admin%22%2C%22title%22%3A%221%22%2C%22email%22%3A%221592328848%2540qq.com%22%2C%22phone%22%3A%2215779478453%22%2C%22birthday%22%3A%221555084800%22%2C%22political_status%22%3A%22%25E4%25B8%25AD%25E5%2585%25B1%25E5%2585%259A%25E5%2591%2598%22%2C%22degree%22%3A%22%25E5%25AD%25A6%25E5%25A3%25AB%22%2C%22eduction%22%3A%22%25E6%259C%25AC%25E7%25A7%2591%22%2C%22role%22%3A%221%22%2C%22login_time%22%3A%221556463712%22%2C%22logout_time%22%3A%221556369013%22%2C%22create_time%22%3A%221556312363%22%2C%22update_time%22%3A%221556463712%22%2C%22delete_time%22%3A0%2C%22is_delete%22%3A0%2C%22bmid%22%3A%2222%22%2C%22discriptines%22%3A%22%22%2C%22discriptines_one%22%3A%22%22%2C%22status%22%3A%221%22%7D',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-28T23:11:23+08:00 ] 127.0.0.1 GET www.ky.demo/index.php/index/index/admin-role.html
+[运行时间：0.118447s] [吞吐率：8.44req/s] [内存消耗：1,689.93kb] [文件加载：46]
+[ info ] [ LANG ] D:\software\ITtools\myphp_www\PHPTutorial\WWW\ky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'admin-role',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.ky.demo',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.108 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://www.ky.demo/index.php/index/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=2ggdduv29dlplkl2b4jlpf4q11; user_id=1; user_info=think%3A%7B%22id%22%3A%221%22%2C%22username%22%3A%22admin%22%2C%22password%22%3A%22admin%22%2C%22sex%22%3A%221%22%2C%22nickname%22%3A%22Admin%22%2C%22title%22%3A%221%22%2C%22email%22%3A%221592328848%2540qq.com%22%2C%22phone%22%3A%2215779478453%22%2C%22birthday%22%3A%221555084800%22%2C%22political_status%22%3A%22%25E4%25B8%25AD%25E5%2585%25B1%25E5%2585%259A%25E5%2591%2598%22%2C%22degree%22%3A%22%25E5%25AD%25A6%25E5%25A3%25AB%22%2C%22eduction%22%3A%22%25E6%259C%25AC%25E7%25A7%2591%22%2C%22role%22%3A%221%22%2C%22login_time%22%3A%221556463712%22%2C%22logout_time%22%3A%221556369013%22%2C%22create_time%22%3A%221556312363%22%2C%22update_time%22%3A%221556463712%22%2C%22delete_time%22%3A0%2C%22is_delete%22%3A0%2C%22bmid%22%3A%2222%22%2C%22discriptines%22%3A%22%22%2C%22discriptines_one%22%3A%22%22%2C%22status%22%3A%221%22%7D',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-28T23:11:26+08:00 ] 127.0.0.1 GET www.ky.demo/index.php/index/index/admin-role.html
+[运行时间：0.120574s] [吞吐率：8.29req/s] [内存消耗：1,689.93kb] [文件加载：46]
+[ info ] [ LANG ] D:\software\ITtools\myphp_www\PHPTutorial\WWW\ky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'admin-role',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.ky.demo',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.108 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://www.ky.demo/index.php/index/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=2ggdduv29dlplkl2b4jlpf4q11; user_id=1; user_info=think%3A%7B%22id%22%3A%221%22%2C%22username%22%3A%22admin%22%2C%22password%22%3A%22admin%22%2C%22sex%22%3A%221%22%2C%22nickname%22%3A%22Admin%22%2C%22title%22%3A%221%22%2C%22email%22%3A%221592328848%2540qq.com%22%2C%22phone%22%3A%2215779478453%22%2C%22birthday%22%3A%221555084800%22%2C%22political_status%22%3A%22%25E4%25B8%25AD%25E5%2585%25B1%25E5%2585%259A%25E5%2591%2598%22%2C%22degree%22%3A%22%25E5%25AD%25A6%25E5%25A3%25AB%22%2C%22eduction%22%3A%22%25E6%259C%25AC%25E7%25A7%2591%22%2C%22role%22%3A%221%22%2C%22login_time%22%3A%221556463712%22%2C%22logout_time%22%3A%221556369013%22%2C%22create_time%22%3A%221556312363%22%2C%22update_time%22%3A%221556463712%22%2C%22delete_time%22%3A0%2C%22is_delete%22%3A0%2C%22bmid%22%3A%2222%22%2C%22discriptines%22%3A%22%22%2C%22discriptines_one%22%3A%22%22%2C%22status%22%3A%221%22%7D',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-28T23:11:26+08:00 ] 127.0.0.1 GET www.ky.demo/index.php/index/index/admin-permission.html
+[运行时间：0.118860s] [吞吐率：8.41req/s] [内存消耗：1,689.92kb] [文件加载：46]
+[ info ] [ LANG ] D:\software\ITtools\myphp_www\PHPTutorial\WWW\ky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'admin-permission',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.ky.demo',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.108 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://www.ky.demo/index.php/index/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=2ggdduv29dlplkl2b4jlpf4q11; user_id=1; user_info=think%3A%7B%22id%22%3A%221%22%2C%22username%22%3A%22admin%22%2C%22password%22%3A%22admin%22%2C%22sex%22%3A%221%22%2C%22nickname%22%3A%22Admin%22%2C%22title%22%3A%221%22%2C%22email%22%3A%221592328848%2540qq.com%22%2C%22phone%22%3A%2215779478453%22%2C%22birthday%22%3A%221555084800%22%2C%22political_status%22%3A%22%25E4%25B8%25AD%25E5%2585%25B1%25E5%2585%259A%25E5%2591%2598%22%2C%22degree%22%3A%22%25E5%25AD%25A6%25E5%25A3%25AB%22%2C%22eduction%22%3A%22%25E6%259C%25AC%25E7%25A7%2591%22%2C%22role%22%3A%221%22%2C%22login_time%22%3A%221556463712%22%2C%22logout_time%22%3A%221556369013%22%2C%22create_time%22%3A%221556312363%22%2C%22update_time%22%3A%221556463712%22%2C%22delete_time%22%3A0%2C%22is_delete%22%3A0%2C%22bmid%22%3A%2222%22%2C%22discriptines%22%3A%22%22%2C%22discriptines_one%22%3A%22%22%2C%22status%22%3A%221%22%7D',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-28T23:11:27+08:00 ] 127.0.0.1 GET www.ky.demo/index.php/index/index/admin-role.html
+[运行时间：0.116337s] [吞吐率：8.60req/s] [内存消耗：1,689.93kb] [文件加载：46]
+[ info ] [ LANG ] D:\software\ITtools\myphp_www\PHPTutorial\WWW\ky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'admin-role',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.ky.demo',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.108 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://www.ky.demo/index.php/index/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=2ggdduv29dlplkl2b4jlpf4q11; user_id=1; user_info=think%3A%7B%22id%22%3A%221%22%2C%22username%22%3A%22admin%22%2C%22password%22%3A%22admin%22%2C%22sex%22%3A%221%22%2C%22nickname%22%3A%22Admin%22%2C%22title%22%3A%221%22%2C%22email%22%3A%221592328848%2540qq.com%22%2C%22phone%22%3A%2215779478453%22%2C%22birthday%22%3A%221555084800%22%2C%22political_status%22%3A%22%25E4%25B8%25AD%25E5%2585%25B1%25E5%2585%259A%25E5%2591%2598%22%2C%22degree%22%3A%22%25E5%25AD%25A6%25E5%25A3%25AB%22%2C%22eduction%22%3A%22%25E6%259C%25AC%25E7%25A7%2591%22%2C%22role%22%3A%221%22%2C%22login_time%22%3A%221556463712%22%2C%22logout_time%22%3A%221556369013%22%2C%22create_time%22%3A%221556312363%22%2C%22update_time%22%3A%221556463712%22%2C%22delete_time%22%3A0%2C%22is_delete%22%3A0%2C%22bmid%22%3A%2222%22%2C%22discriptines%22%3A%22%22%2C%22discriptines_one%22%3A%22%22%2C%22status%22%3A%221%22%7D',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-28T23:26:32+08:00 ] 127.0.0.1 GET www.ky.demo/
+[运行时间：0.754136s] [吞吐率：1.33req/s] [内存消耗：3,066.46kb] [文件加载：57]
+[ info ] [ LANG ] D:\software\ITtools\myphp_www\PHPTutorial\WWW\ky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.ky.demo',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.108 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'purpose' => 'prefetch',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=2ggdduv29dlplkl2b4jlpf4q11; user_id=1; user_info=think%3A%7B%22id%22%3A%221%22%2C%22username%22%3A%22admin%22%2C%22password%22%3A%22admin%22%2C%22sex%22%3A%221%22%2C%22nickname%22%3A%22Admin%22%2C%22title%22%3A%221%22%2C%22email%22%3A%221592328848%2540qq.com%22%2C%22phone%22%3A%2215779478453%22%2C%22birthday%22%3A%221555084800%22%2C%22political_status%22%3A%22%25E4%25B8%25AD%25E5%2585%25B1%25E5%2585%259A%25E5%2591%2598%22%2C%22degree%22%3A%22%25E5%25AD%25A6%25E5%25A3%25AB%22%2C%22eduction%22%3A%22%25E6%259C%25AC%25E7%25A7%2591%22%2C%22role%22%3A%221%22%2C%22login_time%22%3A%221556463712%22%2C%22logout_time%22%3A%221556369013%22%2C%22create_time%22%3A%221556312363%22%2C%22update_time%22%3A%221556463712%22%2C%22delete_time%22%3A0%2C%22is_delete%22%3A0%2C%22bmid%22%3A%2222%22%2C%22discriptines%22%3A%22%22%2C%22discriptines_one%22%3A%22%22%2C%22status%22%3A%221%22%7D',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\software\ITtools\myphp_www\PHPTutorial\WWW\ky\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\software\ITtools\myphp_www\PHPTutorial\WWW\ky\public/../application/index\view\index\index.html [ array (
+  0 => 'role',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002499s ] mysql:host=127.0.0.1;dbname=keyan;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ky_user` [ RunTime:0.060596s ]
+[ sql ] [ SQL ] SELECT * FROM `ky_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.002028s ]
+---------------------------------------------------------------
+[ 2019-04-28T23:26:32+08:00 ] 127.0.0.1 GET www.ky.demo/lib/jquery.contextmenu/jquery.contextmenu.r2.js
+[运行时间：0.192798s] [吞吐率：5.19req/s] [内存消耗：1,391.23kb] [文件加载：38]
+[ info ] [ LANG ] D:\software\ITtools\myphp_www\PHPTutorial\WWW\ky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'lib',
+    1 => 'jquery.contextmenu',
+    2 => 'jquery.contextmenu.r2.js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.ky.demo',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.108 Safari/537.36',
+  'accept' => '*/*',
+  'purpose' => 'prefetch',
+  'referer' => 'http://www.ky.demo/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=2ggdduv29dlplkl2b4jlpf4q11; user_id=1; user_info=think%3A%7B%22id%22%3A%221%22%2C%22username%22%3A%22admin%22%2C%22password%22%3A%22admin%22%2C%22sex%22%3A%221%22%2C%22nickname%22%3A%22Admin%22%2C%22title%22%3A%221%22%2C%22email%22%3A%221592328848%2540qq.com%22%2C%22phone%22%3A%2215779478453%22%2C%22birthday%22%3A%221555084800%22%2C%22political_status%22%3A%22%25E4%25B8%25AD%25E5%2585%25B1%25E5%2585%259A%25E5%2591%2598%22%2C%22degree%22%3A%22%25E5%25AD%25A6%25E5%25A3%25AB%22%2C%22eduction%22%3A%22%25E6%259C%25AC%25E7%25A7%2591%22%2C%22role%22%3A%221%22%2C%22login_time%22%3A%221556463712%22%2C%22logout_time%22%3A%221556369013%22%2C%22create_time%22%3A%221556312363%22%2C%22update_time%22%3A%221556463712%22%2C%22delete_time%22%3A0%2C%22is_delete%22%3A0%2C%22bmid%22%3A%2222%22%2C%22discriptines%22%3A%22%22%2C%22discriptines_one%22%3A%22%22%2C%22status%22%3A%221%22%7D',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-28T23:26:32+08:00 ] 127.0.0.1 GET www.ky.demo/
+[运行时间：0.432154s] [吞吐率：2.31req/s] [内存消耗：2,895.44kb] [文件加载：55]
+[ info ] [ LANG ] D:\software\ITtools\myphp_www\PHPTutorial\WWW\ky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.ky.demo',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.108 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=2ggdduv29dlplkl2b4jlpf4q11; user_id=1; user_info=think%3A%7B%22id%22%3A%221%22%2C%22username%22%3A%22admin%22%2C%22password%22%3A%22admin%22%2C%22sex%22%3A%221%22%2C%22nickname%22%3A%22Admin%22%2C%22title%22%3A%221%22%2C%22email%22%3A%221592328848%2540qq.com%22%2C%22phone%22%3A%2215779478453%22%2C%22birthday%22%3A%221555084800%22%2C%22political_status%22%3A%22%25E4%25B8%25AD%25E5%2585%25B1%25E5%2585%259A%25E5%2591%2598%22%2C%22degree%22%3A%22%25E5%25AD%25A6%25E5%25A3%25AB%22%2C%22eduction%22%3A%22%25E6%259C%25AC%25E7%25A7%2591%22%2C%22role%22%3A%221%22%2C%22login_time%22%3A%221556463712%22%2C%22logout_time%22%3A%221556369013%22%2C%22create_time%22%3A%221556312363%22%2C%22update_time%22%3A%221556463712%22%2C%22delete_time%22%3A0%2C%22is_delete%22%3A0%2C%22bmid%22%3A%2222%22%2C%22discriptines%22%3A%22%22%2C%22discriptines_one%22%3A%22%22%2C%22status%22%3A%221%22%7D',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\software\ITtools\myphp_www\PHPTutorial\WWW\ky\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\software\ITtools\myphp_www\PHPTutorial\WWW\ky\public/../application/index\view\index\index.html [ array (
+  0 => 'role',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002520s ] mysql:host=127.0.0.1;dbname=keyan;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ky_user` [ RunTime:0.157812s ]
+[ sql ] [ SQL ] SELECT * FROM `ky_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.002644s ]
+---------------------------------------------------------------
+[ 2019-04-28T23:26:33+08:00 ] 127.0.0.1 GET www.ky.demo/index/index/welcome.html
+[运行时间：0.166340s] [吞吐率：6.01req/s] [内存消耗：1,667.75kb] [文件加载：45]
+[ info ] [ LANG ] D:\software\ITtools\myphp_www\PHPTutorial\WWW\ky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'welcome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.ky.demo',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.108 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://www.ky.demo/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=2ggdduv29dlplkl2b4jlpf4q11; user_id=1; user_info=think%3A%7B%22id%22%3A%221%22%2C%22username%22%3A%22admin%22%2C%22password%22%3A%22admin%22%2C%22sex%22%3A%221%22%2C%22nickname%22%3A%22Admin%22%2C%22title%22%3A%221%22%2C%22email%22%3A%221592328848%2540qq.com%22%2C%22phone%22%3A%2215779478453%22%2C%22birthday%22%3A%221555084800%22%2C%22political_status%22%3A%22%25E4%25B8%25AD%25E5%2585%25B1%25E5%2585%259A%25E5%2591%2598%22%2C%22degree%22%3A%22%25E5%25AD%25A6%25E5%25A3%25AB%22%2C%22eduction%22%3A%22%25E6%259C%25AC%25E7%25A7%2591%22%2C%22role%22%3A%221%22%2C%22login_time%22%3A%221556463712%22%2C%22logout_time%22%3A%221556369013%22%2C%22create_time%22%3A%221556312363%22%2C%22update_time%22%3A%221556463712%22%2C%22delete_time%22%3A0%2C%22is_delete%22%3A0%2C%22bmid%22%3A%2222%22%2C%22discriptines%22%3A%22%22%2C%22discriptines_one%22%3A%22%22%2C%22status%22%3A%221%22%7D',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->welcome[ D:\software\ITtools\myphp_www\PHPTutorial\WWW\ky\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\software\ITtools\myphp_www\PHPTutorial\WWW\ky\public/../application/index\view\index\welcome.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-28T23:26:33+08:00 ] 127.0.0.1 GET www.ky.demo/lib/jquery.contextmenu/jquery.contextmenu.r2.js
+[运行时间：0.133624s] [吞吐率：7.48req/s] [内存消耗：1,390.95kb] [文件加载：38]
+[ info ] [ LANG ] D:\software\ITtools\myphp_www\PHPTutorial\WWW\ky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'lib',
+    1 => 'jquery.contextmenu',
+    2 => 'jquery.contextmenu.r2.js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.ky.demo',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.108 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://www.ky.demo/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=2ggdduv29dlplkl2b4jlpf4q11; user_id=1; user_info=think%3A%7B%22id%22%3A%221%22%2C%22username%22%3A%22admin%22%2C%22password%22%3A%22admin%22%2C%22sex%22%3A%221%22%2C%22nickname%22%3A%22Admin%22%2C%22title%22%3A%221%22%2C%22email%22%3A%221592328848%2540qq.com%22%2C%22phone%22%3A%2215779478453%22%2C%22birthday%22%3A%221555084800%22%2C%22political_status%22%3A%22%25E4%25B8%25AD%25E5%2585%25B1%25E5%2585%259A%25E5%2591%2598%22%2C%22degree%22%3A%22%25E5%25AD%25A6%25E5%25A3%25AB%22%2C%22eduction%22%3A%22%25E6%259C%25AC%25E7%25A7%2591%22%2C%22role%22%3A%221%22%2C%22login_time%22%3A%221556463712%22%2C%22logout_time%22%3A%221556369013%22%2C%22create_time%22%3A%221556312363%22%2C%22update_time%22%3A%221556463712%22%2C%22delete_time%22%3A0%2C%22is_delete%22%3A0%2C%22bmid%22%3A%2222%22%2C%22discriptines%22%3A%22%22%2C%22discriptines_one%22%3A%22%22%2C%22status%22%3A%221%22%7D',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-28T23:26:34+08:00 ] 127.0.0.1 GET www.ky.demo/index/index/lib/jquery/1.9.1/jquery.min.js
+[运行时间：0.250631s] [吞吐率：3.99req/s] [内存消耗：1,689.48kb] [文件加载：46]
+[ info ] [ LANG ] D:\software\ITtools\myphp_www\PHPTutorial\WWW\ky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'lib',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.ky.demo',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.108 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://www.ky.demo/index/index/welcome.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=2ggdduv29dlplkl2b4jlpf4q11; user_id=1; user_info=think%3A%7B%22id%22%3A%221%22%2C%22username%22%3A%22admin%22%2C%22password%22%3A%22admin%22%2C%22sex%22%3A%221%22%2C%22nickname%22%3A%22Admin%22%2C%22title%22%3A%221%22%2C%22email%22%3A%221592328848%2540qq.com%22%2C%22phone%22%3A%2215779478453%22%2C%22birthday%22%3A%221555084800%22%2C%22political_status%22%3A%22%25E4%25B8%25AD%25E5%2585%25B1%25E5%2585%259A%25E5%2591%2598%22%2C%22degree%22%3A%22%25E5%25AD%25A6%25E5%25A3%25AB%22%2C%22eduction%22%3A%22%25E6%259C%25AC%25E7%25A7%2591%22%2C%22role%22%3A%221%22%2C%22login_time%22%3A%221556463712%22%2C%22logout_time%22%3A%221556369013%22%2C%22create_time%22%3A%221556312363%22%2C%22update_time%22%3A%221556463712%22%2C%22delete_time%22%3A0%2C%22is_delete%22%3A0%2C%22bmid%22%3A%2222%22%2C%22discriptines%22%3A%22%22%2C%22discriptines_one%22%3A%22%22%2C%22status%22%3A%221%22%7D',
+)
+[ info ] [ PARAM ] array (
+  'jquery' => '1.9.1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-28T23:26:34+08:00 ] 127.0.0.1 GET www.ky.demo/index/index/static/h-ui/js/H-ui.min.js
+[运行时间：0.423839s] [吞吐率：2.36req/s] [内存消耗：1,689.47kb] [文件加载：46]
+[ info ] [ LANG ] D:\software\ITtools\myphp_www\PHPTutorial\WWW\ky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'static',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.ky.demo',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.108 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://www.ky.demo/index/index/welcome.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=2ggdduv29dlplkl2b4jlpf4q11; user_id=1; user_info=think%3A%7B%22id%22%3A%221%22%2C%22username%22%3A%22admin%22%2C%22password%22%3A%22admin%22%2C%22sex%22%3A%221%22%2C%22nickname%22%3A%22Admin%22%2C%22title%22%3A%221%22%2C%22email%22%3A%221592328848%2540qq.com%22%2C%22phone%22%3A%2215779478453%22%2C%22birthday%22%3A%221555084800%22%2C%22political_status%22%3A%22%25E4%25B8%25AD%25E5%2585%25B1%25E5%2585%259A%25E5%2591%2598%22%2C%22degree%22%3A%22%25E5%25AD%25A6%25E5%25A3%25AB%22%2C%22eduction%22%3A%22%25E6%259C%25AC%25E7%25A7%2591%22%2C%22role%22%3A%221%22%2C%22login_time%22%3A%221556463712%22%2C%22logout_time%22%3A%221556369013%22%2C%22create_time%22%3A%221556312363%22%2C%22update_time%22%3A%221556463712%22%2C%22delete_time%22%3A0%2C%22is_delete%22%3A0%2C%22bmid%22%3A%2222%22%2C%22discriptines%22%3A%22%22%2C%22discriptines_one%22%3A%22%22%2C%22status%22%3A%221%22%7D',
+)
+[ info ] [ PARAM ] array (
+  'ui' => 'js',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-28T23:26:37+08:00 ] 127.0.0.1 GET www.ky.demo/admin-permission.html
+[运行时间：0.084663s] [吞吐率：11.81req/s] [内存消耗：1,391.43kb] [文件加载：38]
+[ info ] [ LANG ] D:\software\ITtools\myphp_www\PHPTutorial\WWW\ky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin-permission',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.ky.demo',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.108 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://www.ky.demo/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=2ggdduv29dlplkl2b4jlpf4q11; user_id=1; user_info=think%3A%7B%22id%22%3A%221%22%2C%22username%22%3A%22admin%22%2C%22password%22%3A%22admin%22%2C%22sex%22%3A%221%22%2C%22nickname%22%3A%22Admin%22%2C%22title%22%3A%221%22%2C%22email%22%3A%221592328848%2540qq.com%22%2C%22phone%22%3A%2215779478453%22%2C%22birthday%22%3A%221555084800%22%2C%22political_status%22%3A%22%25E4%25B8%25AD%25E5%2585%25B1%25E5%2585%259A%25E5%2591%2598%22%2C%22degree%22%3A%22%25E5%25AD%25A6%25E5%25A3%25AB%22%2C%22eduction%22%3A%22%25E6%259C%25AC%25E7%25A7%2591%22%2C%22role%22%3A%221%22%2C%22login_time%22%3A%221556463712%22%2C%22logout_time%22%3A%221556369013%22%2C%22create_time%22%3A%221556312363%22%2C%22update_time%22%3A%221556463712%22%2C%22delete_time%22%3A0%2C%22is_delete%22%3A0%2C%22bmid%22%3A%2222%22%2C%22discriptines%22%3A%22%22%2C%22discriptines_one%22%3A%22%22%2C%22status%22%3A%221%22%7D',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-28T23:26:38+08:00 ] 127.0.0.1 GET www.ky.demo/index/index/authgroup.html
+[运行时间：0.171954s] [吞吐率：5.82req/s] [内存消耗：1,689.80kb] [文件加载：46]
+[ info ] [ LANG ] D:\software\ITtools\myphp_www\PHPTutorial\WWW\ky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'authgroup',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.ky.demo',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.108 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://www.ky.demo/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=2ggdduv29dlplkl2b4jlpf4q11; user_id=1; user_info=think%3A%7B%22id%22%3A%221%22%2C%22username%22%3A%22admin%22%2C%22password%22%3A%22admin%22%2C%22sex%22%3A%221%22%2C%22nickname%22%3A%22Admin%22%2C%22title%22%3A%221%22%2C%22email%22%3A%221592328848%2540qq.com%22%2C%22phone%22%3A%2215779478453%22%2C%22birthday%22%3A%221555084800%22%2C%22political_status%22%3A%22%25E4%25B8%25AD%25E5%2585%25B1%25E5%2585%259A%25E5%2591%2598%22%2C%22degree%22%3A%22%25E5%25AD%25A6%25E5%25A3%25AB%22%2C%22eduction%22%3A%22%25E6%259C%25AC%25E7%25A7%2591%22%2C%22role%22%3A%221%22%2C%22login_time%22%3A%221556463712%22%2C%22logout_time%22%3A%221556369013%22%2C%22create_time%22%3A%221556312363%22%2C%22update_time%22%3A%221556463712%22%2C%22delete_time%22%3A0%2C%22is_delete%22%3A0%2C%22bmid%22%3A%2222%22%2C%22discriptines%22%3A%22%22%2C%22discriptines_one%22%3A%22%22%2C%22status%22%3A%221%22%7D',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-28T23:26:53+08:00 ] 127.0.0.1 GET www.ky.demo/
+[运行时间：0.513513s] [吞吐率：1.95req/s] [内存消耗：3,066.61kb] [文件加载：57]
+[ info ] [ LANG ] D:\software\ITtools\myphp_www\PHPTutorial\WWW\ky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.ky.demo',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.108 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=2ggdduv29dlplkl2b4jlpf4q11; user_id=1; user_info=think%3A%7B%22id%22%3A%221%22%2C%22username%22%3A%22admin%22%2C%22password%22%3A%22admin%22%2C%22sex%22%3A%221%22%2C%22nickname%22%3A%22Admin%22%2C%22title%22%3A%221%22%2C%22email%22%3A%221592328848%2540qq.com%22%2C%22phone%22%3A%2215779478453%22%2C%22birthday%22%3A%221555084800%22%2C%22political_status%22%3A%22%25E4%25B8%25AD%25E5%2585%25B1%25E5%2585%259A%25E5%2591%2598%22%2C%22degree%22%3A%22%25E5%25AD%25A6%25E5%25A3%25AB%22%2C%22eduction%22%3A%22%25E6%259C%25AC%25E7%25A7%2591%22%2C%22role%22%3A%221%22%2C%22login_time%22%3A%221556463712%22%2C%22logout_time%22%3A%221556369013%22%2C%22create_time%22%3A%221556312363%22%2C%22update_time%22%3A%221556463712%22%2C%22delete_time%22%3A0%2C%22is_delete%22%3A0%2C%22bmid%22%3A%2222%22%2C%22discriptines%22%3A%22%22%2C%22discriptines_one%22%3A%22%22%2C%22status%22%3A%221%22%7D',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\software\ITtools\myphp_www\PHPTutorial\WWW\ky\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\software\ITtools\myphp_www\PHPTutorial\WWW\ky\public/../application/index\view\index\index.html [ array (
+  0 => 'role',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002299s ] mysql:host=127.0.0.1;dbname=keyan;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ky_user` [ RunTime:0.098671s ]
+[ sql ] [ SQL ] SELECT * FROM `ky_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001466s ]
+---------------------------------------------------------------
+[ 2019-04-28T23:26:53+08:00 ] 127.0.0.1 GET www.ky.demo/lib/jquery.contextmenu/jquery.contextmenu.r2.js
+[运行时间：0.142107s] [吞吐率：7.04req/s] [内存消耗：1,390.95kb] [文件加载：38]
+[ info ] [ LANG ] D:\software\ITtools\myphp_www\PHPTutorial\WWW\ky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'lib',
+    1 => 'jquery.contextmenu',
+    2 => 'jquery.contextmenu.r2.js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.ky.demo',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.108 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://www.ky.demo/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=2ggdduv29dlplkl2b4jlpf4q11; user_id=1; user_info=think%3A%7B%22id%22%3A%221%22%2C%22username%22%3A%22admin%22%2C%22password%22%3A%22admin%22%2C%22sex%22%3A%221%22%2C%22nickname%22%3A%22Admin%22%2C%22title%22%3A%221%22%2C%22email%22%3A%221592328848%2540qq.com%22%2C%22phone%22%3A%2215779478453%22%2C%22birthday%22%3A%221555084800%22%2C%22political_status%22%3A%22%25E4%25B8%25AD%25E5%2585%25B1%25E5%2585%259A%25E5%2591%2598%22%2C%22degree%22%3A%22%25E5%25AD%25A6%25E5%25A3%25AB%22%2C%22eduction%22%3A%22%25E6%259C%25AC%25E7%25A7%2591%22%2C%22role%22%3A%221%22%2C%22login_time%22%3A%221556463712%22%2C%22logout_time%22%3A%221556369013%22%2C%22create_time%22%3A%221556312363%22%2C%22update_time%22%3A%221556463712%22%2C%22delete_time%22%3A0%2C%22is_delete%22%3A0%2C%22bmid%22%3A%2222%22%2C%22discriptines%22%3A%22%22%2C%22discriptines_one%22%3A%22%22%2C%22status%22%3A%221%22%7D',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-28T23:26:53+08:00 ] 127.0.0.1 GET www.ky.demo/index/index/welcome.html
+[运行时间：0.156689s] [吞吐率：6.38req/s] [内存消耗：1,667.75kb] [文件加载：45]
+[ info ] [ LANG ] D:\software\ITtools\myphp_www\PHPTutorial\WWW\ky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'welcome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.ky.demo',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.108 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://www.ky.demo/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=2ggdduv29dlplkl2b4jlpf4q11; user_id=1; user_info=think%3A%7B%22id%22%3A%221%22%2C%22username%22%3A%22admin%22%2C%22password%22%3A%22admin%22%2C%22sex%22%3A%221%22%2C%22nickname%22%3A%22Admin%22%2C%22title%22%3A%221%22%2C%22email%22%3A%221592328848%2540qq.com%22%2C%22phone%22%3A%2215779478453%22%2C%22birthday%22%3A%221555084800%22%2C%22political_status%22%3A%22%25E4%25B8%25AD%25E5%2585%25B1%25E5%2585%259A%25E5%2591%2598%22%2C%22degree%22%3A%22%25E5%25AD%25A6%25E5%25A3%25AB%22%2C%22eduction%22%3A%22%25E6%259C%25AC%25E7%25A7%2591%22%2C%22role%22%3A%221%22%2C%22login_time%22%3A%221556463712%22%2C%22logout_time%22%3A%221556369013%22%2C%22create_time%22%3A%221556312363%22%2C%22update_time%22%3A%221556463712%22%2C%22delete_time%22%3A0%2C%22is_delete%22%3A0%2C%22bmid%22%3A%2222%22%2C%22discriptines%22%3A%22%22%2C%22discriptines_one%22%3A%22%22%2C%22status%22%3A%221%22%7D',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->welcome[ D:\software\ITtools\myphp_www\PHPTutorial\WWW\ky\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\software\ITtools\myphp_www\PHPTutorial\WWW\ky\public/../application/index\view\index\welcome.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-28T23:26:53+08:00 ] 127.0.0.1 GET www.ky.demo/index/index/lib/jquery/1.9.1/jquery.min.js
+[运行时间：0.204506s] [吞吐率：4.89req/s] [内存消耗：1,689.50kb] [文件加载：46]
+[ info ] [ LANG ] D:\software\ITtools\myphp_www\PHPTutorial\WWW\ky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'lib',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.ky.demo',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.108 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://www.ky.demo/index/index/welcome.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=2ggdduv29dlplkl2b4jlpf4q11; user_id=1; user_info=think%3A%7B%22id%22%3A%221%22%2C%22username%22%3A%22admin%22%2C%22password%22%3A%22admin%22%2C%22sex%22%3A%221%22%2C%22nickname%22%3A%22Admin%22%2C%22title%22%3A%221%22%2C%22email%22%3A%221592328848%2540qq.com%22%2C%22phone%22%3A%2215779478453%22%2C%22birthday%22%3A%221555084800%22%2C%22political_status%22%3A%22%25E4%25B8%25AD%25E5%2585%25B1%25E5%2585%259A%25E5%2591%2598%22%2C%22degree%22%3A%22%25E5%25AD%25A6%25E5%25A3%25AB%22%2C%22eduction%22%3A%22%25E6%259C%25AC%25E7%25A7%2591%22%2C%22role%22%3A%221%22%2C%22login_time%22%3A%221556463712%22%2C%22logout_time%22%3A%221556369013%22%2C%22create_time%22%3A%221556312363%22%2C%22update_time%22%3A%221556463712%22%2C%22delete_time%22%3A0%2C%22is_delete%22%3A0%2C%22bmid%22%3A%2222%22%2C%22discriptines%22%3A%22%22%2C%22discriptines_one%22%3A%22%22%2C%22status%22%3A%221%22%7D',
+)
+[ info ] [ PARAM ] array (
+  'jquery' => '1.9.1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-28T23:26:53+08:00 ] 127.0.0.1 GET www.ky.demo/index/index/static/h-ui/js/H-ui.min.js
+[运行时间：0.216645s] [吞吐率：4.62req/s] [内存消耗：1,689.41kb] [文件加载：46]
+[ info ] [ LANG ] D:\software\ITtools\myphp_www\PHPTutorial\WWW\ky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'static',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.ky.demo',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.108 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://www.ky.demo/index/index/welcome.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=2ggdduv29dlplkl2b4jlpf4q11; user_id=1; user_info=think%3A%7B%22id%22%3A%221%22%2C%22username%22%3A%22admin%22%2C%22password%22%3A%22admin%22%2C%22sex%22%3A%221%22%2C%22nickname%22%3A%22Admin%22%2C%22title%22%3A%221%22%2C%22email%22%3A%221592328848%2540qq.com%22%2C%22phone%22%3A%2215779478453%22%2C%22birthday%22%3A%221555084800%22%2C%22political_status%22%3A%22%25E4%25B8%25AD%25E5%2585%25B1%25E5%2585%259A%25E5%2591%2598%22%2C%22degree%22%3A%22%25E5%25AD%25A6%25E5%25A3%25AB%22%2C%22eduction%22%3A%22%25E6%259C%25AC%25E7%25A7%2591%22%2C%22role%22%3A%221%22%2C%22login_time%22%3A%221556463712%22%2C%22logout_time%22%3A%221556369013%22%2C%22create_time%22%3A%221556312363%22%2C%22update_time%22%3A%221556463712%22%2C%22delete_time%22%3A0%2C%22is_delete%22%3A0%2C%22bmid%22%3A%2222%22%2C%22discriptines%22%3A%22%22%2C%22discriptines_one%22%3A%22%22%2C%22status%22%3A%221%22%7D',
+)
+[ info ] [ PARAM ] array (
+  'ui' => 'js',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-28T23:26:55+08:00 ] 127.0.0.1 GET www.ky.demo/index/auth_group/lst.html
+[运行时间：0.128976s] [吞吐率：7.75req/s] [内存消耗：1,397.83kb] [文件加载：39]
+[ info ] [ LANG ] D:\software\ITtools\myphp_www\PHPTutorial\WWW\ky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'auth_group',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.ky.demo',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.108 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://www.ky.demo/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=2ggdduv29dlplkl2b4jlpf4q11; user_id=1; user_info=think%3A%7B%22id%22%3A%221%22%2C%22username%22%3A%22admin%22%2C%22password%22%3A%22admin%22%2C%22sex%22%3A%221%22%2C%22nickname%22%3A%22Admin%22%2C%22title%22%3A%221%22%2C%22email%22%3A%221592328848%2540qq.com%22%2C%22phone%22%3A%2215779478453%22%2C%22birthday%22%3A%221555084800%22%2C%22political_status%22%3A%22%25E4%25B8%25AD%25E5%2585%25B1%25E5%2585%259A%25E5%2591%2598%22%2C%22degree%22%3A%22%25E5%25AD%25A6%25E5%25A3%25AB%22%2C%22eduction%22%3A%22%25E6%259C%25AC%25E7%25A7%2591%22%2C%22role%22%3A%221%22%2C%22login_time%22%3A%221556463712%22%2C%22logout_time%22%3A%221556369013%22%2C%22create_time%22%3A%221556312363%22%2C%22update_time%22%3A%221556463712%22%2C%22delete_time%22%3A0%2C%22is_delete%22%3A0%2C%22bmid%22%3A%2222%22%2C%22discriptines%22%3A%22%22%2C%22discriptines_one%22%3A%22%22%2C%22status%22%3A%221%22%7D',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-28T23:32:58+08:00 ] 127.0.0.1 GET www.ky.demo/
+[运行时间：0.275455s] [吞吐率：3.63req/s] [内存消耗：2,895.71kb] [文件加载：55]
+[ info ] [ LANG ] D:\software\ITtools\myphp_www\PHPTutorial\WWW\ky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.ky.demo',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.108 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=2ggdduv29dlplkl2b4jlpf4q11; user_id=1; user_info=think%3A%7B%22id%22%3A%221%22%2C%22username%22%3A%22admin%22%2C%22password%22%3A%22admin%22%2C%22sex%22%3A%221%22%2C%22nickname%22%3A%22Admin%22%2C%22title%22%3A%221%22%2C%22email%22%3A%221592328848%2540qq.com%22%2C%22phone%22%3A%2215779478453%22%2C%22birthday%22%3A%221555084800%22%2C%22political_status%22%3A%22%25E4%25B8%25AD%25E5%2585%25B1%25E5%2585%259A%25E5%2591%2598%22%2C%22degree%22%3A%22%25E5%25AD%25A6%25E5%25A3%25AB%22%2C%22eduction%22%3A%22%25E6%259C%25AC%25E7%25A7%2591%22%2C%22role%22%3A%221%22%2C%22login_time%22%3A%221556463712%22%2C%22logout_time%22%3A%221556369013%22%2C%22create_time%22%3A%221556312363%22%2C%22update_time%22%3A%221556463712%22%2C%22delete_time%22%3A0%2C%22is_delete%22%3A0%2C%22bmid%22%3A%2222%22%2C%22discriptines%22%3A%22%22%2C%22discriptines_one%22%3A%22%22%2C%22status%22%3A%221%22%7D',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\software\ITtools\myphp_www\PHPTutorial\WWW\ky\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\software\ITtools\myphp_www\PHPTutorial\WWW\ky\public/../application/index\view\index\index.html [ array (
+  0 => 'role',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001900s ] mysql:host=127.0.0.1;dbname=keyan;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ky_user` [ RunTime:0.067157s ]
+[ sql ] [ SQL ] SELECT * FROM `ky_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001426s ]
+---------------------------------------------------------------
+[ 2019-04-28T23:32:59+08:00 ] 127.0.0.1 GET www.ky.demo/lib/jquery.contextmenu/jquery.contextmenu.r2.js
+[运行时间：0.108270s] [吞吐率：9.24req/s] [内存消耗：1,390.95kb] [文件加载：38]
+[ info ] [ LANG ] D:\software\ITtools\myphp_www\PHPTutorial\WWW\ky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'lib',
+    1 => 'jquery.contextmenu',
+    2 => 'jquery.contextmenu.r2.js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.ky.demo',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.108 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://www.ky.demo/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=2ggdduv29dlplkl2b4jlpf4q11; user_id=1; user_info=think%3A%7B%22id%22%3A%221%22%2C%22username%22%3A%22admin%22%2C%22password%22%3A%22admin%22%2C%22sex%22%3A%221%22%2C%22nickname%22%3A%22Admin%22%2C%22title%22%3A%221%22%2C%22email%22%3A%221592328848%2540qq.com%22%2C%22phone%22%3A%2215779478453%22%2C%22birthday%22%3A%221555084800%22%2C%22political_status%22%3A%22%25E4%25B8%25AD%25E5%2585%25B1%25E5%2585%259A%25E5%2591%2598%22%2C%22degree%22%3A%22%25E5%25AD%25A6%25E5%25A3%25AB%22%2C%22eduction%22%3A%22%25E6%259C%25AC%25E7%25A7%2591%22%2C%22role%22%3A%221%22%2C%22login_time%22%3A%221556463712%22%2C%22logout_time%22%3A%221556369013%22%2C%22create_time%22%3A%221556312363%22%2C%22update_time%22%3A%221556463712%22%2C%22delete_time%22%3A0%2C%22is_delete%22%3A0%2C%22bmid%22%3A%2222%22%2C%22discriptines%22%3A%22%22%2C%22discriptines_one%22%3A%22%22%2C%22status%22%3A%221%22%7D',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-28T23:32:59+08:00 ] 127.0.0.1 GET www.ky.demo/index/index/welcome.html
+[运行时间：0.214216s] [吞吐率：4.67req/s] [内存消耗：1,667.75kb] [文件加载：45]
+[ info ] [ LANG ] D:\software\ITtools\myphp_www\PHPTutorial\WWW\ky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'welcome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.ky.demo',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.108 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://www.ky.demo/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=2ggdduv29dlplkl2b4jlpf4q11; user_id=1; user_info=think%3A%7B%22id%22%3A%221%22%2C%22username%22%3A%22admin%22%2C%22password%22%3A%22admin%22%2C%22sex%22%3A%221%22%2C%22nickname%22%3A%22Admin%22%2C%22title%22%3A%221%22%2C%22email%22%3A%221592328848%2540qq.com%22%2C%22phone%22%3A%2215779478453%22%2C%22birthday%22%3A%221555084800%22%2C%22political_status%22%3A%22%25E4%25B8%25AD%25E5%2585%25B1%25E5%2585%259A%25E5%2591%2598%22%2C%22degree%22%3A%22%25E5%25AD%25A6%25E5%25A3%25AB%22%2C%22eduction%22%3A%22%25E6%259C%25AC%25E7%25A7%2591%22%2C%22role%22%3A%221%22%2C%22login_time%22%3A%221556463712%22%2C%22logout_time%22%3A%221556369013%22%2C%22create_time%22%3A%221556312363%22%2C%22update_time%22%3A%221556463712%22%2C%22delete_time%22%3A0%2C%22is_delete%22%3A0%2C%22bmid%22%3A%2222%22%2C%22discriptines%22%3A%22%22%2C%22discriptines_one%22%3A%22%22%2C%22status%22%3A%221%22%7D',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->welcome[ D:\software\ITtools\myphp_www\PHPTutorial\WWW\ky\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\software\ITtools\myphp_www\PHPTutorial\WWW\ky\public/../application/index\view\index\welcome.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-28T23:32:59+08:00 ] 127.0.0.1 GET www.ky.demo/index/index/lib/jquery/1.9.1/jquery.min.js
+[运行时间：0.172426s] [吞吐率：5.80req/s] [内存消耗：1,689.48kb] [文件加载：46]
+[ info ] [ LANG ] D:\software\ITtools\myphp_www\PHPTutorial\WWW\ky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'lib',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.ky.demo',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.108 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://www.ky.demo/index/index/welcome.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=2ggdduv29dlplkl2b4jlpf4q11; user_id=1; user_info=think%3A%7B%22id%22%3A%221%22%2C%22username%22%3A%22admin%22%2C%22password%22%3A%22admin%22%2C%22sex%22%3A%221%22%2C%22nickname%22%3A%22Admin%22%2C%22title%22%3A%221%22%2C%22email%22%3A%221592328848%2540qq.com%22%2C%22phone%22%3A%2215779478453%22%2C%22birthday%22%3A%221555084800%22%2C%22political_status%22%3A%22%25E4%25B8%25AD%25E5%2585%25B1%25E5%2585%259A%25E5%2591%2598%22%2C%22degree%22%3A%22%25E5%25AD%25A6%25E5%25A3%25AB%22%2C%22eduction%22%3A%22%25E6%259C%25AC%25E7%25A7%2591%22%2C%22role%22%3A%221%22%2C%22login_time%22%3A%221556463712%22%2C%22logout_time%22%3A%221556369013%22%2C%22create_time%22%3A%221556312363%22%2C%22update_time%22%3A%221556463712%22%2C%22delete_time%22%3A0%2C%22is_delete%22%3A0%2C%22bmid%22%3A%2222%22%2C%22discriptines%22%3A%22%22%2C%22discriptines_one%22%3A%22%22%2C%22status%22%3A%221%22%7D',
+)
+[ info ] [ PARAM ] array (
+  'jquery' => '1.9.1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-28T23:32:59+08:00 ] 127.0.0.1 GET www.ky.demo/index/index/static/h-ui/js/H-ui.min.js
+[运行时间：0.196495s] [吞吐率：5.09req/s] [内存消耗：1,689.42kb] [文件加载：46]
+[ info ] [ LANG ] D:\software\ITtools\myphp_www\PHPTutorial\WWW\ky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'static',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.ky.demo',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.108 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://www.ky.demo/index/index/welcome.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=2ggdduv29dlplkl2b4jlpf4q11; user_id=1; user_info=think%3A%7B%22id%22%3A%221%22%2C%22username%22%3A%22admin%22%2C%22password%22%3A%22admin%22%2C%22sex%22%3A%221%22%2C%22nickname%22%3A%22Admin%22%2C%22title%22%3A%221%22%2C%22email%22%3A%221592328848%2540qq.com%22%2C%22phone%22%3A%2215779478453%22%2C%22birthday%22%3A%221555084800%22%2C%22political_status%22%3A%22%25E4%25B8%25AD%25E5%2585%25B1%25E5%2585%259A%25E5%2591%2598%22%2C%22degree%22%3A%22%25E5%25AD%25A6%25E5%25A3%25AB%22%2C%22eduction%22%3A%22%25E6%259C%25AC%25E7%25A7%2591%22%2C%22role%22%3A%221%22%2C%22login_time%22%3A%221556463712%22%2C%22logout_time%22%3A%221556369013%22%2C%22create_time%22%3A%221556312363%22%2C%22update_time%22%3A%221556463712%22%2C%22delete_time%22%3A0%2C%22is_delete%22%3A0%2C%22bmid%22%3A%2222%22%2C%22discriptines%22%3A%22%22%2C%22discriptines_one%22%3A%22%22%2C%22status%22%3A%221%22%7D',
+)
+[ info ] [ PARAM ] array (
+  'ui' => 'js',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-28T23:33:02+08:00 ] 127.0.0.1 GET www.ky.demo/index/auth_group/lst.html
+[运行时间：0.307518s] [吞吐率：3.25req/s] [内存消耗：1,923.89kb] [文件加载：52]
+[ info ] [ LANG ] D:\software\ITtools\myphp_www\PHPTutorial\WWW\ky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'auth_group',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.ky.demo',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.108 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://www.ky.demo/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=2ggdduv29dlplkl2b4jlpf4q11; user_id=1; user_info=think%3A%7B%22id%22%3A%221%22%2C%22username%22%3A%22admin%22%2C%22password%22%3A%22admin%22%2C%22sex%22%3A%221%22%2C%22nickname%22%3A%22Admin%22%2C%22title%22%3A%221%22%2C%22email%22%3A%221592328848%2540qq.com%22%2C%22phone%22%3A%2215779478453%22%2C%22birthday%22%3A%221555084800%22%2C%22political_status%22%3A%22%25E4%25B8%25AD%25E5%2585%25B1%25E5%2585%259A%25E5%2591%2598%22%2C%22degree%22%3A%22%25E5%25AD%25A6%25E5%25A3%25AB%22%2C%22eduction%22%3A%22%25E6%259C%25AC%25E7%25A7%2591%22%2C%22role%22%3A%221%22%2C%22login_time%22%3A%221556463712%22%2C%22logout_time%22%3A%221556369013%22%2C%22create_time%22%3A%221556312363%22%2C%22update_time%22%3A%221556463712%22%2C%22delete_time%22%3A0%2C%22is_delete%22%3A0%2C%22bmid%22%3A%2222%22%2C%22discriptines%22%3A%22%22%2C%22discriptines_one%22%3A%22%22%2C%22status%22%3A%221%22%7D',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\AuthGroup->lst[ D:\software\ITtools\myphp_www\PHPTutorial\WWW\ky\application\index\controller\AuthGroup.php ]
+[ info ] [ VIEW ] D:\software\ITtools\myphp_www\PHPTutorial\WWW\ky\public/../application/index\view\auth_group\lst.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义变量: count[D:\software\ITtools\myphp_www\PHPTutorial\WWW\ky\runtime\temp\67e6fd13afa8a37aaf35e62272d0280f.php:39]
+---------------------------------------------------------------
+[ 2019-04-28T23:33:17+08:00 ] 127.0.0.1 GET www.ky.demo/
+[运行时间：0.440225s] [吞吐率：2.27req/s] [内存消耗：2,895.71kb] [文件加载：55]
+[ info ] [ LANG ] D:\software\ITtools\myphp_www\PHPTutorial\WWW\ky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.ky.demo',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.108 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=2ggdduv29dlplkl2b4jlpf4q11; user_id=1; user_info=think%3A%7B%22id%22%3A%221%22%2C%22username%22%3A%22admin%22%2C%22password%22%3A%22admin%22%2C%22sex%22%3A%221%22%2C%22nickname%22%3A%22Admin%22%2C%22title%22%3A%221%22%2C%22email%22%3A%221592328848%2540qq.com%22%2C%22phone%22%3A%2215779478453%22%2C%22birthday%22%3A%221555084800%22%2C%22political_status%22%3A%22%25E4%25B8%25AD%25E5%2585%25B1%25E5%2585%259A%25E5%2591%2598%22%2C%22degree%22%3A%22%25E5%25AD%25A6%25E5%25A3%25AB%22%2C%22eduction%22%3A%22%25E6%259C%25AC%25E7%25A7%2591%22%2C%22role%22%3A%221%22%2C%22login_time%22%3A%221556463712%22%2C%22logout_time%22%3A%221556369013%22%2C%22create_time%22%3A%221556312363%22%2C%22update_time%22%3A%221556463712%22%2C%22delete_time%22%3A0%2C%22is_delete%22%3A0%2C%22bmid%22%3A%2222%22%2C%22discriptines%22%3A%22%22%2C%22discriptines_one%22%3A%22%22%2C%22status%22%3A%221%22%7D',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\software\ITtools\myphp_www\PHPTutorial\WWW\ky\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\software\ITtools\myphp_www\PHPTutorial\WWW\ky\public/../application/index\view\index\index.html [ array (
+  0 => 'role',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003373s ] mysql:host=127.0.0.1;dbname=keyan;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ky_user` [ RunTime:0.165967s ]
+[ sql ] [ SQL ] SELECT * FROM `ky_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001516s ]
+---------------------------------------------------------------
+[ 2019-04-28T23:33:17+08:00 ] 127.0.0.1 GET www.ky.demo/lib/jquery.contextmenu/jquery.contextmenu.r2.js
+[运行时间：0.145126s] [吞吐率：6.89req/s] [内存消耗：1,390.95kb] [文件加载：38]
+[ info ] [ LANG ] D:\software\ITtools\myphp_www\PHPTutorial\WWW\ky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'lib',
+    1 => 'jquery.contextmenu',
+    2 => 'jquery.contextmenu.r2.js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.ky.demo',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.108 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://www.ky.demo/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=2ggdduv29dlplkl2b4jlpf4q11; user_id=1; user_info=think%3A%7B%22id%22%3A%221%22%2C%22username%22%3A%22admin%22%2C%22password%22%3A%22admin%22%2C%22sex%22%3A%221%22%2C%22nickname%22%3A%22Admin%22%2C%22title%22%3A%221%22%2C%22email%22%3A%221592328848%2540qq.com%22%2C%22phone%22%3A%2215779478453%22%2C%22birthday%22%3A%221555084800%22%2C%22political_status%22%3A%22%25E4%25B8%25AD%25E5%2585%25B1%25E5%2585%259A%25E5%2591%2598%22%2C%22degree%22%3A%22%25E5%25AD%25A6%25E5%25A3%25AB%22%2C%22eduction%22%3A%22%25E6%259C%25AC%25E7%25A7%2591%22%2C%22role%22%3A%221%22%2C%22login_time%22%3A%221556463712%22%2C%22logout_time%22%3A%221556369013%22%2C%22create_time%22%3A%221556312363%22%2C%22update_time%22%3A%221556463712%22%2C%22delete_time%22%3A0%2C%22is_delete%22%3A0%2C%22bmid%22%3A%2222%22%2C%22discriptines%22%3A%22%22%2C%22discriptines_one%22%3A%22%22%2C%22status%22%3A%221%22%7D',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-28T23:33:17+08:00 ] 127.0.0.1 GET www.ky.demo/index/index/welcome.html
+[运行时间：0.219056s] [吞吐率：4.57req/s] [内存消耗：1,667.75kb] [文件加载：45]
+[ info ] [ LANG ] D:\software\ITtools\myphp_www\PHPTutorial\WWW\ky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'welcome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.ky.demo',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.108 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://www.ky.demo/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=2ggdduv29dlplkl2b4jlpf4q11; user_id=1; user_info=think%3A%7B%22id%22%3A%221%22%2C%22username%22%3A%22admin%22%2C%22password%22%3A%22admin%22%2C%22sex%22%3A%221%22%2C%22nickname%22%3A%22Admin%22%2C%22title%22%3A%221%22%2C%22email%22%3A%221592328848%2540qq.com%22%2C%22phone%22%3A%2215779478453%22%2C%22birthday%22%3A%221555084800%22%2C%22political_status%22%3A%22%25E4%25B8%25AD%25E5%2585%25B1%25E5%2585%259A%25E5%2591%2598%22%2C%22degree%22%3A%22%25E5%25AD%25A6%25E5%25A3%25AB%22%2C%22eduction%22%3A%22%25E6%259C%25AC%25E7%25A7%2591%22%2C%22role%22%3A%221%22%2C%22login_time%22%3A%221556463712%22%2C%22logout_time%22%3A%221556369013%22%2C%22create_time%22%3A%221556312363%22%2C%22update_time%22%3A%221556463712%22%2C%22delete_time%22%3A0%2C%22is_delete%22%3A0%2C%22bmid%22%3A%2222%22%2C%22discriptines%22%3A%22%22%2C%22discriptines_one%22%3A%22%22%2C%22status%22%3A%221%22%7D',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->welcome[ D:\software\ITtools\myphp_www\PHPTutorial\WWW\ky\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\software\ITtools\myphp_www\PHPTutorial\WWW\ky\public/../application/index\view\index\welcome.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-28T23:33:18+08:00 ] 127.0.0.1 GET www.ky.demo/index/index/lib/jquery/1.9.1/jquery.min.js
+[运行时间：0.169655s] [吞吐率：5.89req/s] [内存消耗：1,689.48kb] [文件加载：46]
+[ info ] [ LANG ] D:\software\ITtools\myphp_www\PHPTutorial\WWW\ky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'lib',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.ky.demo',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.108 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://www.ky.demo/index/index/welcome.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=2ggdduv29dlplkl2b4jlpf4q11; user_id=1; user_info=think%3A%7B%22id%22%3A%221%22%2C%22username%22%3A%22admin%22%2C%22password%22%3A%22admin%22%2C%22sex%22%3A%221%22%2C%22nickname%22%3A%22Admin%22%2C%22title%22%3A%221%22%2C%22email%22%3A%221592328848%2540qq.com%22%2C%22phone%22%3A%2215779478453%22%2C%22birthday%22%3A%221555084800%22%2C%22political_status%22%3A%22%25E4%25B8%25AD%25E5%2585%25B1%25E5%2585%259A%25E5%2591%2598%22%2C%22degree%22%3A%22%25E5%25AD%25A6%25E5%25A3%25AB%22%2C%22eduction%22%3A%22%25E6%259C%25AC%25E7%25A7%2591%22%2C%22role%22%3A%221%22%2C%22login_time%22%3A%221556463712%22%2C%22logout_time%22%3A%221556369013%22%2C%22create_time%22%3A%221556312363%22%2C%22update_time%22%3A%221556463712%22%2C%22delete_time%22%3A0%2C%22is_delete%22%3A0%2C%22bmid%22%3A%2222%22%2C%22discriptines%22%3A%22%22%2C%22discriptines_one%22%3A%22%22%2C%22status%22%3A%221%22%7D',
+)
+[ info ] [ PARAM ] array (
+  'jquery' => '1.9.1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-28T23:33:18+08:00 ] 127.0.0.1 GET www.ky.demo/index/index/static/h-ui/js/H-ui.min.js
+[运行时间：0.184027s] [吞吐率：5.43req/s] [内存消耗：1,689.42kb] [文件加载：46]
+[ info ] [ LANG ] D:\software\ITtools\myphp_www\PHPTutorial\WWW\ky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'static',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.ky.demo',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.108 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://www.ky.demo/index/index/welcome.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=2ggdduv29dlplkl2b4jlpf4q11; user_id=1; user_info=think%3A%7B%22id%22%3A%221%22%2C%22username%22%3A%22admin%22%2C%22password%22%3A%22admin%22%2C%22sex%22%3A%221%22%2C%22nickname%22%3A%22Admin%22%2C%22title%22%3A%221%22%2C%22email%22%3A%221592328848%2540qq.com%22%2C%22phone%22%3A%2215779478453%22%2C%22birthday%22%3A%221555084800%22%2C%22political_status%22%3A%22%25E4%25B8%25AD%25E5%2585%25B1%25E5%2585%259A%25E5%2591%2598%22%2C%22degree%22%3A%22%25E5%25AD%25A6%25E5%25A3%25AB%22%2C%22eduction%22%3A%22%25E6%259C%25AC%25E7%25A7%2591%22%2C%22role%22%3A%221%22%2C%22login_time%22%3A%221556463712%22%2C%22logout_time%22%3A%221556369013%22%2C%22create_time%22%3A%221556312363%22%2C%22update_time%22%3A%221556463712%22%2C%22delete_time%22%3A0%2C%22is_delete%22%3A0%2C%22bmid%22%3A%2222%22%2C%22discriptines%22%3A%22%22%2C%22discriptines_one%22%3A%22%22%2C%22status%22%3A%221%22%7D',
+)
+[ info ] [ PARAM ] array (
+  'ui' => 'js',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-28T23:33:20+08:00 ] 127.0.0.1 GET www.ky.demo/index/auth_group/lst.html
+[运行时间：0.223288s] [吞吐率：4.48req/s] [内存消耗：1,862.69kb] [文件加载：51]
+[ info ] [ LANG ] D:\software\ITtools\myphp_www\PHPTutorial\WWW\ky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'auth_group',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.ky.demo',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.108 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://www.ky.demo/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=2ggdduv29dlplkl2b4jlpf4q11; user_id=1; user_info=think%3A%7B%22id%22%3A%221%22%2C%22username%22%3A%22admin%22%2C%22password%22%3A%22admin%22%2C%22sex%22%3A%221%22%2C%22nickname%22%3A%22Admin%22%2C%22title%22%3A%221%22%2C%22email%22%3A%221592328848%2540qq.com%22%2C%22phone%22%3A%2215779478453%22%2C%22birthday%22%3A%221555084800%22%2C%22political_status%22%3A%22%25E4%25B8%25AD%25E5%2585%25B1%25E5%2585%259A%25E5%2591%2598%22%2C%22degree%22%3A%22%25E5%25AD%25A6%25E5%25A3%25AB%22%2C%22eduction%22%3A%22%25E6%259C%25AC%25E7%25A7%2591%22%2C%22role%22%3A%221%22%2C%22login_time%22%3A%221556463712%22%2C%22logout_time%22%3A%221556369013%22%2C%22create_time%22%3A%221556312363%22%2C%22update_time%22%3A%221556463712%22%2C%22delete_time%22%3A0%2C%22is_delete%22%3A0%2C%22bmid%22%3A%2222%22%2C%22discriptines%22%3A%22%22%2C%22discriptines_one%22%3A%22%22%2C%22status%22%3A%221%22%7D',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\AuthGroup->lst[ D:\software\ITtools\myphp_www\PHPTutorial\WWW\ky\application\index\controller\AuthGroup.php ]
+[ info ] [ VIEW ] D:\software\ITtools\myphp_www\PHPTutorial\WWW\ky\public/../application/index\view\auth_group\lst.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义变量: count[D:\software\ITtools\myphp_www\PHPTutorial\WWW\ky\runtime\temp\67e6fd13afa8a37aaf35e62272d0280f.php:39]
+---------------------------------------------------------------
+[ 2019-04-28T23:33:36+08:00 ] 127.0.0.1 GET www.ky.demo/
+[运行时间：0.301867s] [吞吐率：3.31req/s] [内存消耗：2,895.71kb] [文件加载：55]
+[ info ] [ LANG ] D:\software\ITtools\myphp_www\PHPTutorial\WWW\ky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.ky.demo',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.108 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=2ggdduv29dlplkl2b4jlpf4q11; user_id=1; user_info=think%3A%7B%22id%22%3A%221%22%2C%22username%22%3A%22admin%22%2C%22password%22%3A%22admin%22%2C%22sex%22%3A%221%22%2C%22nickname%22%3A%22Admin%22%2C%22title%22%3A%221%22%2C%22email%22%3A%221592328848%2540qq.com%22%2C%22phone%22%3A%2215779478453%22%2C%22birthday%22%3A%221555084800%22%2C%22political_status%22%3A%22%25E4%25B8%25AD%25E5%2585%25B1%25E5%2585%259A%25E5%2591%2598%22%2C%22degree%22%3A%22%25E5%25AD%25A6%25E5%25A3%25AB%22%2C%22eduction%22%3A%22%25E6%259C%25AC%25E7%25A7%2591%22%2C%22role%22%3A%221%22%2C%22login_time%22%3A%221556463712%22%2C%22logout_time%22%3A%221556369013%22%2C%22create_time%22%3A%221556312363%22%2C%22update_time%22%3A%221556463712%22%2C%22delete_time%22%3A0%2C%22is_delete%22%3A0%2C%22bmid%22%3A%2222%22%2C%22discriptines%22%3A%22%22%2C%22discriptines_one%22%3A%22%22%2C%22status%22%3A%221%22%7D',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\software\ITtools\myphp_www\PHPTutorial\WWW\ky\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\software\ITtools\myphp_www\PHPTutorial\WWW\ky\public/../application/index\view\index\index.html [ array (
+  0 => 'role',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002111s ] mysql:host=127.0.0.1;dbname=keyan;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ky_user` [ RunTime:0.071237s ]
+[ sql ] [ SQL ] SELECT * FROM `ky_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.004234s ]
+---------------------------------------------------------------
+[ 2019-04-28T23:33:36+08:00 ] 127.0.0.1 GET www.ky.demo/lib/jquery.contextmenu/jquery.contextmenu.r2.js
+[运行时间：0.126136s] [吞吐率：7.93req/s] [内存消耗：1,390.95kb] [文件加载：38]
+[ info ] [ LANG ] D:\software\ITtools\myphp_www\PHPTutorial\WWW\ky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'lib',
+    1 => 'jquery.contextmenu',
+    2 => 'jquery.contextmenu.r2.js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.ky.demo',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.108 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://www.ky.demo/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=2ggdduv29dlplkl2b4jlpf4q11; user_id=1; user_info=think%3A%7B%22id%22%3A%221%22%2C%22username%22%3A%22admin%22%2C%22password%22%3A%22admin%22%2C%22sex%22%3A%221%22%2C%22nickname%22%3A%22Admin%22%2C%22title%22%3A%221%22%2C%22email%22%3A%221592328848%2540qq.com%22%2C%22phone%22%3A%2215779478453%22%2C%22birthday%22%3A%221555084800%22%2C%22political_status%22%3A%22%25E4%25B8%25AD%25E5%2585%25B1%25E5%2585%259A%25E5%2591%2598%22%2C%22degree%22%3A%22%25E5%25AD%25A6%25E5%25A3%25AB%22%2C%22eduction%22%3A%22%25E6%259C%25AC%25E7%25A7%2591%22%2C%22role%22%3A%221%22%2C%22login_time%22%3A%221556463712%22%2C%22logout_time%22%3A%221556369013%22%2C%22create_time%22%3A%221556312363%22%2C%22update_time%22%3A%221556463712%22%2C%22delete_time%22%3A0%2C%22is_delete%22%3A0%2C%22bmid%22%3A%2222%22%2C%22discriptines%22%3A%22%22%2C%22discriptines_one%22%3A%22%22%2C%22status%22%3A%221%22%7D',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-28T23:33:36+08:00 ] 127.0.0.1 GET www.ky.demo/index/index/welcome.html
+[运行时间：0.134783s] [吞吐率：7.42req/s] [内存消耗：1,667.75kb] [文件加载：45]
+[ info ] [ LANG ] D:\software\ITtools\myphp_www\PHPTutorial\WWW\ky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'welcome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.ky.demo',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.108 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://www.ky.demo/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=2ggdduv29dlplkl2b4jlpf4q11; user_id=1; user_info=think%3A%7B%22id%22%3A%221%22%2C%22username%22%3A%22admin%22%2C%22password%22%3A%22admin%22%2C%22sex%22%3A%221%22%2C%22nickname%22%3A%22Admin%22%2C%22title%22%3A%221%22%2C%22email%22%3A%221592328848%2540qq.com%22%2C%22phone%22%3A%2215779478453%22%2C%22birthday%22%3A%221555084800%22%2C%22political_status%22%3A%22%25E4%25B8%25AD%25E5%2585%25B1%25E5%2585%259A%25E5%2591%2598%22%2C%22degree%22%3A%22%25E5%25AD%25A6%25E5%25A3%25AB%22%2C%22eduction%22%3A%22%25E6%259C%25AC%25E7%25A7%2591%22%2C%22role%22%3A%221%22%2C%22login_time%22%3A%221556463712%22%2C%22logout_time%22%3A%221556369013%22%2C%22create_time%22%3A%221556312363%22%2C%22update_time%22%3A%221556463712%22%2C%22delete_time%22%3A0%2C%22is_delete%22%3A0%2C%22bmid%22%3A%2222%22%2C%22discriptines%22%3A%22%22%2C%22discriptines_one%22%3A%22%22%2C%22status%22%3A%221%22%7D',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->welcome[ D:\software\ITtools\myphp_www\PHPTutorial\WWW\ky\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\software\ITtools\myphp_www\PHPTutorial\WWW\ky\public/../application/index\view\index\welcome.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-28T23:33:37+08:00 ] 127.0.0.1 GET www.ky.demo/index/index/lib/jquery/1.9.1/jquery.min.js
+[运行时间：0.201900s] [吞吐率：4.95req/s] [内存消耗：1,689.48kb] [文件加载：46]
+[ info ] [ LANG ] D:\software\ITtools\myphp_www\PHPTutorial\WWW\ky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'lib',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.ky.demo',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.108 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://www.ky.demo/index/index/welcome.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=2ggdduv29dlplkl2b4jlpf4q11; user_id=1; user_info=think%3A%7B%22id%22%3A%221%22%2C%22username%22%3A%22admin%22%2C%22password%22%3A%22admin%22%2C%22sex%22%3A%221%22%2C%22nickname%22%3A%22Admin%22%2C%22title%22%3A%221%22%2C%22email%22%3A%221592328848%2540qq.com%22%2C%22phone%22%3A%2215779478453%22%2C%22birthday%22%3A%221555084800%22%2C%22political_status%22%3A%22%25E4%25B8%25AD%25E5%2585%25B1%25E5%2585%259A%25E5%2591%2598%22%2C%22degree%22%3A%22%25E5%25AD%25A6%25E5%25A3%25AB%22%2C%22eduction%22%3A%22%25E6%259C%25AC%25E7%25A7%2591%22%2C%22role%22%3A%221%22%2C%22login_time%22%3A%221556463712%22%2C%22logout_time%22%3A%221556369013%22%2C%22create_time%22%3A%221556312363%22%2C%22update_time%22%3A%221556463712%22%2C%22delete_time%22%3A0%2C%22is_delete%22%3A0%2C%22bmid%22%3A%2222%22%2C%22discriptines%22%3A%22%22%2C%22discriptines_one%22%3A%22%22%2C%22status%22%3A%221%22%7D',
+)
+[ info ] [ PARAM ] array (
+  'jquery' => '1.9.1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-28T23:33:37+08:00 ] 127.0.0.1 GET www.ky.demo/index/index/static/h-ui/js/H-ui.min.js
+[运行时间：0.293476s] [吞吐率：3.41req/s] [内存消耗：1,689.42kb] [文件加载：46]
+[ info ] [ LANG ] D:\software\ITtools\myphp_www\PHPTutorial\WWW\ky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'static',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.ky.demo',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.108 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://www.ky.demo/index/index/welcome.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=2ggdduv29dlplkl2b4jlpf4q11; user_id=1; user_info=think%3A%7B%22id%22%3A%221%22%2C%22username%22%3A%22admin%22%2C%22password%22%3A%22admin%22%2C%22sex%22%3A%221%22%2C%22nickname%22%3A%22Admin%22%2C%22title%22%3A%221%22%2C%22email%22%3A%221592328848%2540qq.com%22%2C%22phone%22%3A%2215779478453%22%2C%22birthday%22%3A%221555084800%22%2C%22political_status%22%3A%22%25E4%25B8%25AD%25E5%2585%25B1%25E5%2585%259A%25E5%2591%2598%22%2C%22degree%22%3A%22%25E5%25AD%25A6%25E5%25A3%25AB%22%2C%22eduction%22%3A%22%25E6%259C%25AC%25E7%25A7%2591%22%2C%22role%22%3A%221%22%2C%22login_time%22%3A%221556463712%22%2C%22logout_time%22%3A%221556369013%22%2C%22create_time%22%3A%221556312363%22%2C%22update_time%22%3A%221556463712%22%2C%22delete_time%22%3A0%2C%22is_delete%22%3A0%2C%22bmid%22%3A%2222%22%2C%22discriptines%22%3A%22%22%2C%22discriptines_one%22%3A%22%22%2C%22status%22%3A%221%22%7D',
+)
+[ info ] [ PARAM ] array (
+  'ui' => 'js',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-28T23:33:40+08:00 ] 127.0.0.1 GET www.ky.demo/index/auth_group/lst.html
+[运行时间：0.221716s] [吞吐率：4.51req/s] [内存消耗：1,862.64kb] [文件加载：51]
+[ info ] [ LANG ] D:\software\ITtools\myphp_www\PHPTutorial\WWW\ky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'auth_group',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.ky.demo',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.108 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://www.ky.demo/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=2ggdduv29dlplkl2b4jlpf4q11; user_id=1; user_info=think%3A%7B%22id%22%3A%221%22%2C%22username%22%3A%22admin%22%2C%22password%22%3A%22admin%22%2C%22sex%22%3A%221%22%2C%22nickname%22%3A%22Admin%22%2C%22title%22%3A%221%22%2C%22email%22%3A%221592328848%2540qq.com%22%2C%22phone%22%3A%2215779478453%22%2C%22birthday%22%3A%221555084800%22%2C%22political_status%22%3A%22%25E4%25B8%25AD%25E5%2585%25B1%25E5%2585%259A%25E5%2591%2598%22%2C%22degree%22%3A%22%25E5%25AD%25A6%25E5%25A3%25AB%22%2C%22eduction%22%3A%22%25E6%259C%25AC%25E7%25A7%2591%22%2C%22role%22%3A%221%22%2C%22login_time%22%3A%221556463712%22%2C%22logout_time%22%3A%221556369013%22%2C%22create_time%22%3A%221556312363%22%2C%22update_time%22%3A%221556463712%22%2C%22delete_time%22%3A0%2C%22is_delete%22%3A0%2C%22bmid%22%3A%2222%22%2C%22discriptines%22%3A%22%22%2C%22discriptines_one%22%3A%22%22%2C%22status%22%3A%221%22%7D',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\AuthGroup->lst[ D:\software\ITtools\myphp_www\PHPTutorial\WWW\ky\application\index\controller\AuthGroup.php ]
+[ info ] [ VIEW ] D:\software\ITtools\myphp_www\PHPTutorial\WWW\ky\public/../application/index\view\auth_group\lst.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义变量: page[D:\software\ITtools\myphp_www\PHPTutorial\WWW\ky\runtime\temp\67e6fd13afa8a37aaf35e62272d0280f.php:88]
+---------------------------------------------------------------
+[ 2019-04-28T23:34:23+08:00 ] 127.0.0.1 GET www.ky.demo/index/auth_group/lst.html
+[运行时间：0.117418s] [吞吐率：8.52req/s] [内存消耗：1,714.37kb] [文件加载：49]
+[ info ] [ LANG ] D:\software\ITtools\myphp_www\PHPTutorial\WWW\ky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'auth_group',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.ky.demo',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.108 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://www.ky.demo/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=2ggdduv29dlplkl2b4jlpf4q11; user_id=1; user_info=think%3A%7B%22id%22%3A%221%22%2C%22username%22%3A%22admin%22%2C%22password%22%3A%22admin%22%2C%22sex%22%3A%221%22%2C%22nickname%22%3A%22Admin%22%2C%22title%22%3A%221%22%2C%22email%22%3A%221592328848%2540qq.com%22%2C%22phone%22%3A%2215779478453%22%2C%22birthday%22%3A%221555084800%22%2C%22political_status%22%3A%22%25E4%25B8%25AD%25E5%2585%25B1%25E5%2585%259A%25E5%2591%2598%22%2C%22degree%22%3A%22%25E5%25AD%25A6%25E5%25A3%25AB%22%2C%22eduction%22%3A%22%25E6%259C%25AC%25E7%25A7%2591%22%2C%22role%22%3A%221%22%2C%22login_time%22%3A%221556463712%22%2C%22logout_time%22%3A%221556369013%22%2C%22create_time%22%3A%221556312363%22%2C%22update_time%22%3A%221556463712%22%2C%22delete_time%22%3A0%2C%22is_delete%22%3A0%2C%22bmid%22%3A%2222%22%2C%22discriptines%22%3A%22%22%2C%22discriptines_one%22%3A%22%22%2C%22status%22%3A%221%22%7D',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\AuthGroup->lst[ D:\software\ITtools\myphp_www\PHPTutorial\WWW\ky\application\index\controller\AuthGroup.php ]
+[ info ] [ VIEW ] D:\software\ITtools\myphp_www\PHPTutorial\WWW\ky\public/../application/index\view\auth_group\lst.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义变量: page[D:\software\ITtools\myphp_www\PHPTutorial\WWW\ky\runtime\temp\67e6fd13afa8a37aaf35e62272d0280f.php:88]
+---------------------------------------------------------------
+[ 2019-04-28T23:34:42+08:00 ] 127.0.0.1 GET www.ky.demo/
+[运行时间：0.274262s] [吞吐率：3.65req/s] [内存消耗：2,895.71kb] [文件加载：55]
+[ info ] [ LANG ] D:\software\ITtools\myphp_www\PHPTutorial\WWW\ky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.ky.demo',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.108 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=2ggdduv29dlplkl2b4jlpf4q11; user_id=1; user_info=think%3A%7B%22id%22%3A%221%22%2C%22username%22%3A%22admin%22%2C%22password%22%3A%22admin%22%2C%22sex%22%3A%221%22%2C%22nickname%22%3A%22Admin%22%2C%22title%22%3A%221%22%2C%22email%22%3A%221592328848%2540qq.com%22%2C%22phone%22%3A%2215779478453%22%2C%22birthday%22%3A%221555084800%22%2C%22political_status%22%3A%22%25E4%25B8%25AD%25E5%2585%25B1%25E5%2585%259A%25E5%2591%2598%22%2C%22degree%22%3A%22%25E5%25AD%25A6%25E5%25A3%25AB%22%2C%22eduction%22%3A%22%25E6%259C%25AC%25E7%25A7%2591%22%2C%22role%22%3A%221%22%2C%22login_time%22%3A%221556463712%22%2C%22logout_time%22%3A%221556369013%22%2C%22create_time%22%3A%221556312363%22%2C%22update_time%22%3A%221556463712%22%2C%22delete_time%22%3A0%2C%22is_delete%22%3A0%2C%22bmid%22%3A%2222%22%2C%22discriptines%22%3A%22%22%2C%22discriptines_one%22%3A%22%22%2C%22status%22%3A%221%22%7D',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\software\ITtools\myphp_www\PHPTutorial\WWW\ky\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\software\ITtools\myphp_www\PHPTutorial\WWW\ky\public/../application/index\view\index\index.html [ array (
+  0 => 'role',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002302s ] mysql:host=127.0.0.1;dbname=keyan;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ky_user` [ RunTime:0.079648s ]
+[ sql ] [ SQL ] SELECT * FROM `ky_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001833s ]
+---------------------------------------------------------------
+[ 2019-04-28T23:34:42+08:00 ] 127.0.0.1 GET www.ky.demo/lib/jquery.contextmenu/jquery.contextmenu.r2.js
+[运行时间：0.182955s] [吞吐率：5.47req/s] [内存消耗：1,390.95kb] [文件加载：38]
+[ info ] [ LANG ] D:\software\ITtools\myphp_www\PHPTutorial\WWW\ky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'lib',
+    1 => 'jquery.contextmenu',
+    2 => 'jquery.contextmenu.r2.js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.ky.demo',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.108 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://www.ky.demo/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=2ggdduv29dlplkl2b4jlpf4q11; user_id=1; user_info=think%3A%7B%22id%22%3A%221%22%2C%22username%22%3A%22admin%22%2C%22password%22%3A%22admin%22%2C%22sex%22%3A%221%22%2C%22nickname%22%3A%22Admin%22%2C%22title%22%3A%221%22%2C%22email%22%3A%221592328848%2540qq.com%22%2C%22phone%22%3A%2215779478453%22%2C%22birthday%22%3A%221555084800%22%2C%22political_status%22%3A%22%25E4%25B8%25AD%25E5%2585%25B1%25E5%2585%259A%25E5%2591%2598%22%2C%22degree%22%3A%22%25E5%25AD%25A6%25E5%25A3%25AB%22%2C%22eduction%22%3A%22%25E6%259C%25AC%25E7%25A7%2591%22%2C%22role%22%3A%221%22%2C%22login_time%22%3A%221556463712%22%2C%22logout_time%22%3A%221556369013%22%2C%22create_time%22%3A%221556312363%22%2C%22update_time%22%3A%221556463712%22%2C%22delete_time%22%3A0%2C%22is_delete%22%3A0%2C%22bmid%22%3A%2222%22%2C%22discriptines%22%3A%22%22%2C%22discriptines_one%22%3A%22%22%2C%22status%22%3A%221%22%7D',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-28T23:34:43+08:00 ] 127.0.0.1 GET www.ky.demo/index/index/welcome.html
+[运行时间：0.182210s] [吞吐率：5.49req/s] [内存消耗：1,667.75kb] [文件加载：45]
+[ info ] [ LANG ] D:\software\ITtools\myphp_www\PHPTutorial\WWW\ky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'welcome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.ky.demo',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.108 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://www.ky.demo/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=2ggdduv29dlplkl2b4jlpf4q11; user_id=1; user_info=think%3A%7B%22id%22%3A%221%22%2C%22username%22%3A%22admin%22%2C%22password%22%3A%22admin%22%2C%22sex%22%3A%221%22%2C%22nickname%22%3A%22Admin%22%2C%22title%22%3A%221%22%2C%22email%22%3A%221592328848%2540qq.com%22%2C%22phone%22%3A%2215779478453%22%2C%22birthday%22%3A%221555084800%22%2C%22political_status%22%3A%22%25E4%25B8%25AD%25E5%2585%25B1%25E5%2585%259A%25E5%2591%2598%22%2C%22degree%22%3A%22%25E5%25AD%25A6%25E5%25A3%25AB%22%2C%22eduction%22%3A%22%25E6%259C%25AC%25E7%25A7%2591%22%2C%22role%22%3A%221%22%2C%22login_time%22%3A%221556463712%22%2C%22logout_time%22%3A%221556369013%22%2C%22create_time%22%3A%221556312363%22%2C%22update_time%22%3A%221556463712%22%2C%22delete_time%22%3A0%2C%22is_delete%22%3A0%2C%22bmid%22%3A%2222%22%2C%22discriptines%22%3A%22%22%2C%22discriptines_one%22%3A%22%22%2C%22status%22%3A%221%22%7D',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->welcome[ D:\software\ITtools\myphp_www\PHPTutorial\WWW\ky\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\software\ITtools\myphp_www\PHPTutorial\WWW\ky\public/../application/index\view\index\welcome.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-28T23:34:43+08:00 ] 127.0.0.1 GET www.ky.demo/index/index/lib/jquery/1.9.1/jquery.min.js
+[运行时间：0.155572s] [吞吐率：6.43req/s] [内存消耗：1,689.48kb] [文件加载：46]
+[ info ] [ LANG ] D:\software\ITtools\myphp_www\PHPTutorial\WWW\ky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'lib',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.ky.demo',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.108 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://www.ky.demo/index/index/welcome.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=2ggdduv29dlplkl2b4jlpf4q11; user_id=1; user_info=think%3A%7B%22id%22%3A%221%22%2C%22username%22%3A%22admin%22%2C%22password%22%3A%22admin%22%2C%22sex%22%3A%221%22%2C%22nickname%22%3A%22Admin%22%2C%22title%22%3A%221%22%2C%22email%22%3A%221592328848%2540qq.com%22%2C%22phone%22%3A%2215779478453%22%2C%22birthday%22%3A%221555084800%22%2C%22political_status%22%3A%22%25E4%25B8%25AD%25E5%2585%25B1%25E5%2585%259A%25E5%2591%2598%22%2C%22degree%22%3A%22%25E5%25AD%25A6%25E5%25A3%25AB%22%2C%22eduction%22%3A%22%25E6%259C%25AC%25E7%25A7%2591%22%2C%22role%22%3A%221%22%2C%22login_time%22%3A%221556463712%22%2C%22logout_time%22%3A%221556369013%22%2C%22create_time%22%3A%221556312363%22%2C%22update_time%22%3A%221556463712%22%2C%22delete_time%22%3A0%2C%22is_delete%22%3A0%2C%22bmid%22%3A%2222%22%2C%22discriptines%22%3A%22%22%2C%22discriptines_one%22%3A%22%22%2C%22status%22%3A%221%22%7D',
+)
+[ info ] [ PARAM ] array (
+  'jquery' => '1.9.1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-28T23:34:43+08:00 ] 127.0.0.1 GET www.ky.demo/index/index/static/h-ui/js/H-ui.min.js
+[运行时间：0.184964s] [吞吐率：5.41req/s] [内存消耗：1,689.42kb] [文件加载：46]
+[ info ] [ LANG ] D:\software\ITtools\myphp_www\PHPTutorial\WWW\ky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'static',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.ky.demo',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.108 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://www.ky.demo/index/index/welcome.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=2ggdduv29dlplkl2b4jlpf4q11; user_id=1; user_info=think%3A%7B%22id%22%3A%221%22%2C%22username%22%3A%22admin%22%2C%22password%22%3A%22admin%22%2C%22sex%22%3A%221%22%2C%22nickname%22%3A%22Admin%22%2C%22title%22%3A%221%22%2C%22email%22%3A%221592328848%2540qq.com%22%2C%22phone%22%3A%2215779478453%22%2C%22birthday%22%3A%221555084800%22%2C%22political_status%22%3A%22%25E4%25B8%25AD%25E5%2585%25B1%25E5%2585%259A%25E5%2591%2598%22%2C%22degree%22%3A%22%25E5%25AD%25A6%25E5%25A3%25AB%22%2C%22eduction%22%3A%22%25E6%259C%25AC%25E7%25A7%2591%22%2C%22role%22%3A%221%22%2C%22login_time%22%3A%221556463712%22%2C%22logout_time%22%3A%221556369013%22%2C%22create_time%22%3A%221556312363%22%2C%22update_time%22%3A%221556463712%22%2C%22delete_time%22%3A0%2C%22is_delete%22%3A0%2C%22bmid%22%3A%2222%22%2C%22discriptines%22%3A%22%22%2C%22discriptines_one%22%3A%22%22%2C%22status%22%3A%221%22%7D',
+)
+[ info ] [ PARAM ] array (
+  'ui' => 'js',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-28T23:34:46+08:00 ] 127.0.0.1 GET www.ky.demo/admin-permission.html
+[运行时间：0.094838s] [吞吐率：10.54req/s] [内存消耗：1,391.43kb] [文件加载：38]
+[ info ] [ LANG ] D:\software\ITtools\myphp_www\PHPTutorial\WWW\ky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin-permission',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.ky.demo',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.108 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://www.ky.demo/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=2ggdduv29dlplkl2b4jlpf4q11; user_id=1; user_info=think%3A%7B%22id%22%3A%221%22%2C%22username%22%3A%22admin%22%2C%22password%22%3A%22admin%22%2C%22sex%22%3A%221%22%2C%22nickname%22%3A%22Admin%22%2C%22title%22%3A%221%22%2C%22email%22%3A%221592328848%2540qq.com%22%2C%22phone%22%3A%2215779478453%22%2C%22birthday%22%3A%221555084800%22%2C%22political_status%22%3A%22%25E4%25B8%25AD%25E5%2585%25B1%25E5%2585%259A%25E5%2591%2598%22%2C%22degree%22%3A%22%25E5%25AD%25A6%25E5%25A3%25AB%22%2C%22eduction%22%3A%22%25E6%259C%25AC%25E7%25A7%2591%22%2C%22role%22%3A%221%22%2C%22login_time%22%3A%221556463712%22%2C%22logout_time%22%3A%221556369013%22%2C%22create_time%22%3A%221556312363%22%2C%22update_time%22%3A%221556463712%22%2C%22delete_time%22%3A0%2C%22is_delete%22%3A0%2C%22bmid%22%3A%2222%22%2C%22discriptines%22%3A%22%22%2C%22discriptines_one%22%3A%22%22%2C%22status%22%3A%221%22%7D',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-28T23:34:52+08:00 ] 127.0.0.1 GET www.ky.demo/admin-permission.html
+[运行时间：0.101816s] [吞吐率：9.82req/s] [内存消耗：1,391.43kb] [文件加载：38]
+[ info ] [ LANG ] D:\software\ITtools\myphp_www\PHPTutorial\WWW\ky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin-permission',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.ky.demo',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.108 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://www.ky.demo/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=2ggdduv29dlplkl2b4jlpf4q11; user_id=1; user_info=think%3A%7B%22id%22%3A%221%22%2C%22username%22%3A%22admin%22%2C%22password%22%3A%22admin%22%2C%22sex%22%3A%221%22%2C%22nickname%22%3A%22Admin%22%2C%22title%22%3A%221%22%2C%22email%22%3A%221592328848%2540qq.com%22%2C%22phone%22%3A%2215779478453%22%2C%22birthday%22%3A%221555084800%22%2C%22political_status%22%3A%22%25E4%25B8%25AD%25E5%2585%25B1%25E5%2585%259A%25E5%2591%2598%22%2C%22degree%22%3A%22%25E5%25AD%25A6%25E5%25A3%25AB%22%2C%22eduction%22%3A%22%25E6%259C%25AC%25E7%25A7%2591%22%2C%22role%22%3A%221%22%2C%22login_time%22%3A%221556463712%22%2C%22logout_time%22%3A%221556369013%22%2C%22create_time%22%3A%221556312363%22%2C%22update_time%22%3A%221556463712%22%2C%22delete_time%22%3A0%2C%22is_delete%22%3A0%2C%22bmid%22%3A%2222%22%2C%22discriptines%22%3A%22%22%2C%22discriptines_one%22%3A%22%22%2C%22status%22%3A%221%22%7D',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-28T23:34:53+08:00 ] 127.0.0.1 GET www.ky.demo/index/auth_group/lst.html
+[运行时间：0.207895s] [吞吐率：4.81req/s] [内存消耗：1,875.82kb] [文件加载：48]
+[ info ] [ LANG ] D:\software\ITtools\myphp_www\PHPTutorial\WWW\ky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'auth_group',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.ky.demo',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.108 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://www.ky.demo/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=2ggdduv29dlplkl2b4jlpf4q11; user_id=1; user_info=think%3A%7B%22id%22%3A%221%22%2C%22username%22%3A%22admin%22%2C%22password%22%3A%22admin%22%2C%22sex%22%3A%221%22%2C%22nickname%22%3A%22Admin%22%2C%22title%22%3A%221%22%2C%22email%22%3A%221592328848%2540qq.com%22%2C%22phone%22%3A%2215779478453%22%2C%22birthday%22%3A%221555084800%22%2C%22political_status%22%3A%22%25E4%25B8%25AD%25E5%2585%25B1%25E5%2585%259A%25E5%2591%2598%22%2C%22degree%22%3A%22%25E5%25AD%25A6%25E5%25A3%25AB%22%2C%22eduction%22%3A%22%25E6%259C%25AC%25E7%25A7%2591%22%2C%22role%22%3A%221%22%2C%22login_time%22%3A%221556463712%22%2C%22logout_time%22%3A%221556369013%22%2C%22create_time%22%3A%221556312363%22%2C%22update_time%22%3A%221556463712%22%2C%22delete_time%22%3A0%2C%22is_delete%22%3A0%2C%22bmid%22%3A%2222%22%2C%22discriptines%22%3A%22%22%2C%22discriptines_one%22%3A%22%22%2C%22status%22%3A%221%22%7D',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\AuthGroup->lst[ D:\software\ITtools\myphp_www\PHPTutorial\WWW\ky\application\index\controller\AuthGroup.php ]
+[ info ] [ VIEW ] D:\software\ITtools\myphp_www\PHPTutorial\WWW\ky\public/../application/index\view\auth_group\lst.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-28T23:36:27+08:00 ] 127.0.0.1 GET www.ky.demo/index/auth_group/lst.html
+[运行时间：0.196059s] [吞吐率：5.10req/s] [内存消耗：1,875.93kb] [文件加载：48]
+[ info ] [ LANG ] D:\software\ITtools\myphp_www\PHPTutorial\WWW\ky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'auth_group',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.ky.demo',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.108 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://www.ky.demo/index/auth_group/lst.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=2ggdduv29dlplkl2b4jlpf4q11; user_id=1; user_info=think%3A%7B%22id%22%3A%221%22%2C%22username%22%3A%22admin%22%2C%22password%22%3A%22admin%22%2C%22sex%22%3A%221%22%2C%22nickname%22%3A%22Admin%22%2C%22title%22%3A%221%22%2C%22email%22%3A%221592328848%2540qq.com%22%2C%22phone%22%3A%2215779478453%22%2C%22birthday%22%3A%221555084800%22%2C%22political_status%22%3A%22%25E4%25B8%25AD%25E5%2585%25B1%25E5%2585%259A%25E5%2591%2598%22%2C%22degree%22%3A%22%25E5%25AD%25A6%25E5%25A3%25AB%22%2C%22eduction%22%3A%22%25E6%259C%25AC%25E7%25A7%2591%22%2C%22role%22%3A%221%22%2C%22login_time%22%3A%221556463712%22%2C%22logout_time%22%3A%221556369013%22%2C%22create_time%22%3A%221556312363%22%2C%22update_time%22%3A%221556463712%22%2C%22delete_time%22%3A0%2C%22is_delete%22%3A0%2C%22bmid%22%3A%2222%22%2C%22discriptines%22%3A%22%22%2C%22discriptines_one%22%3A%22%22%2C%22status%22%3A%221%22%7D',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\AuthGroup->lst[ D:\software\ITtools\myphp_www\PHPTutorial\WWW\ky\application\index\controller\AuthGroup.php ]
+[ info ] [ VIEW ] D:\software\ITtools\myphp_www\PHPTutorial\WWW\ky\public/../application/index\view\auth_group\lst.html [ array (
+) ]
+[ info ] [ LOG ] INIT File

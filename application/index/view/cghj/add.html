@@ -1,0 +1,163 @@
+{include file="public/meta" /}
+<title></title>
+<meta name="keywords" content="">
+<meta name="description" content="">
+<script src="__STATIC__/lib/jquery/1.9.1/jquery.js"></script>
+<script src="__STATIC__/lib/layer/2.4/layer.js"></script>
+</head>
+
+<body>
+<article class="page-container">
+	<form class="form form-horizontal" id="form-admin-add">
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>成果获奖名称：</label>
+			<div class="formControls col-xs-8 col-sm-9">
+				<input type="text" class="input-text" value="" placeholder="请输入成果获奖名称" id="rewardname" name="rewardname">
+			</div>
+		</div>
+
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>所属部门：</label>
+			<div class="formControls col-xs-8 col-sm-9">
+				<span class="select-box" style="width:300px;">
+					<select class="select" name="bmid" size="1">
+						<option value="0">请选择</option>
+						{volist name="bmres" id="vo"}
+						<option value="{$vo.bm_id}">{if condition="$vo.level neq 0"}|{/if}<?php echo str_repeat('-',$vo['level']*4); ?>{$vo.bm_name}</option>
+						{/volist}
+					</select>
+				</span>
+			</div>
+		</div>
+
+
+
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>成果获奖作者：</label>
+			<div class="formControls col-xs-8 col-sm-9">
+				<input type="text" class="input-text" value="" placeholder="请输入成果获奖作者" id="reward_winner" name="reward_winner">
+			</div>
+		</div>
+
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>获奖日期：</label>
+			<div class="formControls col-xs-8 col-sm-9">
+				<input type="text" class="input-text" value="" placeholder="请选择获奖日期" id="datetimepicker" name="reward_time">
+			</div>
+		</div>
+
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>获奖级别：</label>
+			<div class="formControls col-xs-8 col-sm-9">
+				<input type="text" class="input-text" value="" placeholder="请输入获奖级别" id="reward_grade" name="reward_grade">
+			</div>
+		</div>
+
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>获奖等级：</label>
+			<div class="formControls col-xs-8 col-sm-9">
+				<input type="text" class="input-text" value="" placeholder="请输入获奖等级" id="reward_rank" name="reward_rank">
+			</div>
+		</div>
+
+		<div class="row cl">
+			<div class="col-xs-8 col-sm-9 col-xs-offset-4 col-sm-offset-3">
+				<input class="btn btn-primary radius" type="submit" value="&nbsp;&nbsp;提交&nbsp;&nbsp;">
+			</div>
+		</div>
+	</form>
+</article>
+
+<!--_footer 作为公共模版分离出去-->
+{//include file="public/footer" /}
+<!--/_footer 作为公共模版分离出去-->
+
+<!--请在下方写此页面业务相关的脚本-->
+{//include file="public/js" /}
+
+<script type="text/javascript" src="__STATIC__/lib/jquery/1.9.1/jquery.min.js"></script>
+<script type="text/javascript" src="__STATIC__/lib/layer/2.4/layer.js"></script>
+<script type="text/javascript" src="__STATIC__/static/h-ui/js/H-ui.min.js"></script>
+<script type="text/javascript" src="__STATIC__/static/h-ui.admin/js/H-ui.admin.js"></script> <!--/_footer 作为公共模版分离出去-->
+
+<!--请在下方写此页面业务相关的脚本-->
+<script type="text/javascript" src="__STATIC__/lib/jquery.validation/1.14.0/jquery.validate.js"></script>
+<script type="text/javascript" src="__STATIC__/lib/jquery.validation/1.14.0/validate-methods.js"></script>
+<script type="text/javascript" src="__STATIC__/lib/jquery.validation/1.14.0/messages_zh.js"></script>
+
+<script type="text/javascript">
+$(function(){
+	//日期插件
+	$("#datetimepicker").datetimepicker({
+    	format: 'yyyy-mm-dd',
+		minView: "month",
+		todayBtn:  1,
+		autoclose: 1,
+		// endDate : new Date()
+	}).on('hide',function(e) {
+		//此处可以触发日期校验。
+	});
+	$("#form-admin-add").validate({
+		rules:{
+            ht_id:{
+                required:true,
+            },
+			ht_name:{
+				required:true,
+			},
+			ht_leader:{
+				required:true,
+			}
+		},
+		onkeyup:false,
+		focusCleanup:true,
+		success:"valid",
+		submitHandler:function(form){
+			$(form).ajaxSubmit({
+				type: 'post',
+				url: "{:url('add')}",
+				success: function(data){
+				    if(data.code == 1) {
+                        layer.msg('添加成功!',{icon:1,time:1000});
+                    }else{
+						if(data.msg)
+						{
+							layer.msg(data.msg,{icon:2,time:1000});
+						}else{
+							layer.msg('添加失败!',{icon:2,time:1000});
+						}
+					}
+				},
+                error: function(XmlHttpRequest, textStatus, errorThrown){
+					layer.msg('添加失败!',{icon:2,time:1000});
+				}
+			});
+			// var index = parent.layer.getFrameIndex(window.name);
+			// parent.$('.btn-refresh').click();
+			// parent.layer.close(index);
+		}
+	});
+});
+</script> 
+<!--/请在上方写此页面业务相关的脚本-->
+
+<script>
+    //失去焦点时,检查合同名称是否重复
+    $("#ht_name").blur(function(){
+        // $.ajax({
+        //     type: 'GET',
+        //     url: "checkJgName",
+        //     data:{name:$(this).val()},
+        //     dataType: 'json',
+        //     success: function(data){
+        //         if (data.status == 1) {
+        //             layer.alert(data.message);
+        //         } else {
+        //             layer.alert(data.message);
+        //         }
+        //     }
+        // });
+    });
+</script>
+</body>
+</html>

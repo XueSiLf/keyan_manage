@@ -1,0 +1,186 @@
+{include file="public/meta" /}
+<title></title>
+<meta name="keywords" content="">
+<meta name="description" content="">
+<script src="__STATIC__/lib/jquery/1.9.1/jquery.js"></script>
+<script src="__STATIC__/lib/layer/2.4/layer.js"></script>
+</head>
+
+<body>
+<article class="page-container">
+	<form class="form form-horizontal" id="form-admin-add">
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>角色名称：</label>
+			<div class="formControls col-xs-8 col-sm-9">
+				<input type="text" class="input-text" value="" placeholder="请输入角色名称" id="title" name="title">
+			</div>
+		</div>
+
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>启用状态：</label>
+			<div class="formControls col-xs-8 col-sm-9">
+				<span class="select-box" style="width:150px;">
+					<select id="status" class="select" name="status" size="1">
+						<option value="1" selected>启用</option>
+						<option value="0">禁用</option>
+					</select>
+				</span>
+			</div>
+		</div>
+
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>配置权限：</label>
+			<table class="table table-border table-bg" style="width:300px;position:relative;left:14px;">
+				<thead>
+					<tr>
+						<th>配置权限</th>
+					</tr>
+				</thead>
+				<tbody>
+					{volist name="authRuleRes" id="authRule"}
+					<tr>
+						<td>
+							<label>
+								<?php echo str_repeat('&nbsp;', $authRule['level']*3);?>
+								<input name="rules[]" value="{$authRule.id}" dataid="id-{$authRule.dataid}" class="inverted checkbox-parent {if condition="$authRule['level'] neq 0"} checkbox-child {/if} " type="checkbox">
+								<span {if condition="$authRule['level'] eq 0"} style="font-weight:bold; font-size:14px;" {/if} class="text">{$authRule.title}</span>
+							</label>
+						</td>
+					</tr>
+					{/volist}
+				</tbody>
+			</table>
+		</div>
+
+		<div class="row cl">
+			<div class="col-xs-8 col-sm-9 col-xs-offset-4 col-sm-offset-3">
+				<input class="btn btn-primary radius" type="submit" value="&nbsp;&nbsp;提交&nbsp;&nbsp;">
+			</div>
+		</div>
+	</form>
+</article>
+
+<!--_footer 作为公共模版分离出去-->
+{//include file="public/footer" /}
+<!--/_footer 作为公共模版分离出去-->
+
+<!--请在下方写此页面业务相关的脚本-->
+{//include file="public/js" /}
+
+<script type="text/javascript" src="__STATIC__/lib/jquery/1.9.1/jquery.min.js"></script>
+<script type="text/javascript" src="__STATIC__/lib/layer/2.4/layer.js"></script>
+<script type="text/javascript" src="__STATIC__/static/h-ui/js/H-ui.min.js"></script>
+<script type="text/javascript" src="__STATIC__/static/h-ui.admin/js/H-ui.admin.js"></script> <!--/_footer 作为公共模版分离出去-->
+
+<!--请在下方写此页面业务相关的脚本-->
+<script type="text/javascript" src="__STATIC__/lib/jquery.validation/1.14.0/jquery.validate.js"></script>
+<script type="text/javascript" src="__STATIC__/lib/jquery.validation/1.14.0/validate-methods.js"></script>
+<script type="text/javascript" src="__STATIC__/lib/jquery.validation/1.14.0/messages_zh.js"></script>
+
+<script type="text/javascript">
+$(function(){
+	// 权限配置
+	//动态选择框，上下级选中状态变化
+    $('input.checkbox-parent').on('change', function () {
+        var dataid = $(this).attr("dataid");
+        $('input[dataid^=' + dataid + ']').prop('checked', $(this).is(':checked'));
+    });
+    $('input.checkbox-child').on('change', function () {
+        var dataid = $(this).attr("dataid");
+        dataid = dataid.substring(0, dataid.lastIndexOf("-"));
+        var parent = $('input[dataid=' + dataid + ']');
+        if ($(this).is(':checked')) {
+            parent.prop('checked', true);
+            //循环到顶级
+            while (dataid.lastIndexOf("-") != 2) {
+                dataid = dataid.substring(0, dataid.lastIndexOf("-"));
+                parent = $('input[dataid=' + dataid + ']');
+                parent.prop('checked', true);
+            }
+        } else {
+            //父级
+            if ($('input[dataid^=' + dataid + '-]:checked').length == 0) {
+                parent.prop('checked', false);
+                //循环到顶级
+                while (dataid.lastIndexOf("-") != 2) {
+                    dataid = dataid.substring(0, dataid.lastIndexOf("-"));
+                    parent = $('input[dataid=' + dataid + ']');
+                    if ($('input[dataid^=' + dataid + '-]:checked').length == 0) {
+                        parent.prop('checked', false);
+                    }
+                }
+            }
+        }
+    });
+
+	$(function(){
+		$('.skin-minimal input').iCheck({
+			checkboxClass: 'icheckbox-blue',
+			radioClass: 'iradio-blue',
+			increaseArea: '20%'
+		})});
+
+	$("#form-admin-add").validate({
+		rules:{
+            title:{
+                required:true,
+            },
+			ht_name:{
+				required:true,
+			},
+			ht_leader:{
+				required:true,
+			}
+		},
+		onkeyup:false,
+		focusCleanup:true,
+		success:"valid",
+		submitHandler:function(form){
+			$(form).ajaxSubmit({
+				type: 'post',
+				url: "{:url('add')}",
+				success: function(data){
+				    if(data.code == 1) {
+                        layer.msg('添加角色成功!',{icon:1,time:1000});
+                    }else{
+						if(data.msg)
+						{
+							layer.msg(data.msg,{icon:2,time:1000});
+						}else{
+							layer.msg('添加角色失败!',{icon:2,time:1000});
+						}
+					}
+				},
+                error: function(XmlHttpRequest, textStatus, errorThrown){
+					layer.msg('添加角色失败!',{icon:2,time:1000});
+				}
+			});
+			// var index = parent.layer.getFrameIndex(window.name);
+			// parent.$('.btn-refresh').click();
+			// parent.layer.close(index);
+		}
+	});
+});
+</script> 
+<!--/请在上方写此页面业务相关的脚本-->
+
+<script>
+    //失去焦点时,检查合同名称是否重复
+    $("#ht_name").blur(function(){
+        // $.ajax({
+        //     type: 'GET',
+        //     url: "checkJgName",
+        //     data:{name:$(this).val()},
+        //     dataType: 'json',
+        //     success: function(data){
+        //         if (data.status == 1) {
+        //             layer.alert(data.message);
+        //         } else {
+        //             layer.alert(data.message);
+        //         }
+        //     }
+        // });
+    });
+</script>
+</body>
+</html>

@@ -1,0 +1,116 @@
+﻿{include file="public/meta" /}
+<title>我的桌面</title>
+
+<style>
+.main-content{
+	font-size:16px;
+	position:relative;
+	top:10px;
+	width:100%;
+	height:300px;
+	margin:0 auto;
+	clear:both;
+	/* background-color:blue; */
+}
+
+
+.content{
+	border-radius:30px;
+	border:1px solid #bdbebf;
+	width:48%;
+	height:246px;
+}
+.content-left{
+	float:left;
+	/* background-color:red; */
+}
+.content-right{
+	float:right;
+	/* background-color:red; */
+}
+.content-three{
+	clear:both;
+	position:relative;
+	top:-30px;
+	height:246px;
+	width:100%;
+	/* background-color:aqua; */
+}
+.inner-div{
+	position: relative;
+    width: 530px;
+    margin: 0 auto;
+    /* background-color: black; */
+    top: -2px;
+    left: -16px;
+    height: 300px;
+}
+.inner-div h3{
+	position: relative;
+    left: 34px;
+}
+
+
+</style>
+
+</head>
+<body>
+<div class="page-container" style="margin-top:-14px;">
+	<p class="f-20 text-success" style="margin-bottom:0;">欢迎使用景德镇陶瓷大学科研管理系统！ 欢迎你，{$Think.session.user_info.nickname}！</p>
+	<hr>
+	<div class="main-content">
+		<div class="content content-left">
+			<div class="inner-div">
+				<h3>我的事务</h3>
+				<hr style="position:relative;left:35px;width:488px;">
+				<ul>
+					<li><span>> </span><a href="{:url('zxxm/lst')}">纵向项目663项待审核</a></li>
+					<li><span>> </span><a href="{:url('hxxm/lst')}">横向项目663项待审核</a></li>
+					<li><span>> </span><a href="{:url('hxxm/lst')}">科研论文663项待审核</a></li>
+					<li><span>> </span><a href="{:url('hxxm/lst')}">获奖663篇待审核</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="content content-right">
+			<div class="inner-div">
+				<h3>我的科研</h3>
+				<hr style="position:relative;left:35px;width:488px;">
+				<ul>
+					<li><span>> </span>纵向项目449项（482）</li>
+					<li><span>> </span>科研项目663待审核</li>
+					<li><span>> </span>科研项目663待审核</li>
+					<li><span>> </span>科研项目663待审核</li>
+					<li><span>> </span>科研项目663待审核</li>
+					<li><span>> </span>科研项目663待审核</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="content-three">
+		<div class="content content-left">
+			<div class="inner-div">
+				<h3>我的事务</h3>
+				<hr style="position:relative;left:35px;width:488px;">
+				<ul>
+					<li><span>> </span>科研项目663待审核</li>
+					<li><span>> </span>科研项目663待审核</li>
+					<li><span>> </span>科研项目663待审核</li>
+					<li><span>> </span>科研项目663待审核</li>
+					<li><span>> </span>科研项目663待审核</li>
+					<li><span>> </span>科研项目663待审核</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
+<footer class="footer mt-20">
+	<div class="container">
+		<p>Copyright &copy;2019 景德镇陶瓷大学科研管理系统 v1.0 All Rights Reserved.<br>
+			本后台系统由景德镇陶瓷大学信息工程学院提供技术支持</p>
+	</div>
+</footer>
+
+<script type="text/javascript" src="lib/jquery/1.9.1/jquery.min.js"></script> 
+<script type="text/javascript" src="static/h-ui/js/H-ui.min.js"></script>
+</body>
+</html>

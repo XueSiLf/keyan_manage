@@ -1,0 +1,207 @@
+{include file="public/meta" /}
+<title></title>
+<meta name="keywords" content="">
+<meta name="description" content="">
+<script src="__STATIC__/lib/jquery/1.9.1/jquery.js"></script>
+<script src="__STATIC__/lib/layer/2.4/layer.js"></script>
+</head>
+
+<body>
+<article class="page-container">
+	<form class="form form-horizontal" id="form-admin-add">
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>论文题目：</label>
+			<div class="formControls col-xs-8 col-sm-9">
+				<input type="text" class="input-text" value="" placeholder="请输入论文题目" id="paper_name" name="paper_name">
+			</div>
+		</div>
+
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>所属单位：</label>
+			<div class="formControls col-xs-8 col-sm-9">
+				<span class="select-box" style="width:300px;">
+					<select class="select" name="bmid" size="1">
+						<option value="0">请选择</option>
+						{volist name="bmres" id="vo"}
+						<option value="{$vo.bm_id}">{if condition="$vo.level neq 0"}|{/if}<?php echo str_repeat('-',$vo['level']*4); ?>{$vo.bm_name}</option>
+						{/volist}
+					</select>
+				</span>
+			</div>
+		</div>
+
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>论文英文题目：</label>
+			<div class="formControls col-xs-8 col-sm-9">
+				<input type="text" class="input-text" value="" placeholder="请输入论文英文题目，没有请留空" id="paper_ename" name="paper_ename">
+			</div>
+		</div>
+
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>第一作者：</label>
+			<div class="formControls col-xs-8 col-sm-9">
+				<input type="text" class="input-text" value="" placeholder="请输入第一作者" id="first_author" name="first_author">
+			</div>
+		</div>
+
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>出版/发表时间：</label>
+			<div class="formControls col-xs-8 col-sm-9">
+				<input type="date" class="input-text" value="" id="publish_time" name="publish_time">
+			</div>
+		</div>
+
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>学科门类：</label>
+			<div class="formControls col-xs-8 col-sm-9">
+				<input type="text" class="input-text" value="" placeholder="请输入学科门类" id="paper_xkml" name="paper_xkml">
+			</div>
+		</div>
+
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>发表刊物：</label>
+			<div class="formControls col-xs-8 col-sm-9">
+				<input type="text" class="input-text" value="" placeholder="请输入发表刊物" id="paper_fbkw" name="paper_fbkw">
+			</div>
+		</div>
+
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>发表刊物级别：</label>
+			<div class="formControls col-xs-8 col-sm-9">
+				<input type="text" class="input-text" value="" placeholder="请输入发表刊物级别" id="paper_fbkw_jibie" name="paper_fbkw_jibie">
+			</div>
+		</div>
+
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>收录名称：</label>
+			<div class="formControls col-xs-8 col-sm-9">
+				<input type="text" class="input-text" value="" placeholder="请输入收录名称" id="sr_name" name="sr_name">
+			</div>
+		</div>
+
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>项目来源：</label>
+			<div class="formControls col-xs-8 col-sm-9">
+				<input type="text" class="input-text" value="" placeholder="请输入项目来源，没有请留空" id="paper_source" name="paper_source">
+			</div>
+		</div>
+
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>一级学科：</label>
+			<div class="formControls col-xs-8 col-sm-9">
+				<input type="text" class="input-text" value="" placeholder="请输入一级学科" id="firstsub" name="firstsub">
+			</div>
+		</div>
+
+		<!-- <div class="row cl">
+			<label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>论文类型：</label>
+			<div class="formControls col-xs-8 col-sm-9">
+				<input type="text" class="input-text" value="" placeholder="请输入论文类型" id="paper_type" name="paper_type">
+			</div>
+		</div> -->
+
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>ISSN号：</label>
+			<div class="formControls col-xs-8 col-sm-9">
+				<input type="text" class="input-text" value="" placeholder="请输入ISSN号" id="issn_num" name="issn_num">
+			</div>
+		</div>
+
+		<div class="row cl">
+			<div class="col-xs-8 col-sm-9 col-xs-offset-4 col-sm-offset-3">
+				<input class="btn btn-primary radius" type="submit" value="&nbsp;&nbsp;提交&nbsp;&nbsp;">
+			</div>
+		</div>
+	</form>
+</article>
+
+<!--_footer 作为公共模版分离出去-->
+{//include file="public/footer" /}
+<!--/_footer 作为公共模版分离出去-->
+
+<!--请在下方写此页面业务相关的脚本-->
+{//include file="public/js" /}
+
+<script type="text/javascript" src="__STATIC__/lib/jquery/1.9.1/jquery.min.js"></script>
+<script type="text/javascript" src="__STATIC__/lib/layer/2.4/layer.js"></script>
+<script type="text/javascript" src="__STATIC__/static/h-ui/js/H-ui.min.js"></script>
+<script type="text/javascript" src="__STATIC__/static/h-ui.admin/js/H-ui.admin.js"></script> <!--/_footer 作为公共模版分离出去-->
+
+<!--请在下方写此页面业务相关的脚本-->
+<script type="text/javascript" src="__STATIC__/lib/jquery.validation/1.14.0/jquery.validate.js"></script>
+<script type="text/javascript" src="__STATIC__/lib/jquery.validation/1.14.0/validate-methods.js"></script>
+<script type="text/javascript" src="__STATIC__/lib/jquery.validation/1.14.0/messages_zh.js"></script>
+
+<script type="text/javascript">
+$(function(){
+	$("#form-admin-add").validate({
+		rules:{
+            paper_name:{
+                required:true,
+            },
+			first_author:{
+				required:true,
+			},
+			paper_fbkw:{
+				required:true,
+			},
+			sr_name:{
+				required:true,
+			},
+			paper_xkml:{
+				required:true,
+			},
+			issn_num:{
+				required:true,
+			},
+			firstsub:{
+				required:true,
+			},
+		},
+		onkeyup:false,
+		focusCleanup:true,
+		success:"valid",
+		submitHandler:function(form){
+			$(form).ajaxSubmit({
+				type: 'post',
+				url: "{:url('add')}",
+				success: function(data){
+				    if(data.code == 1) {
+                        layer.msg('添加成功!',{icon:1,time:1000});
+                    }else{
+						layer.msg('添加失败!',{icon:2,time:1000});
+					}
+				},
+                error: function(XmlHttpRequest, textStatus, errorThrown){
+					layer.msg('添加失败!',{icon:2,time:1000});
+				}
+			});
+			// var index = parent.layer.getFrameIndex(window.name);
+			// parent.$('.btn-refresh').click();
+			// parent.layer.close(index);
+		}
+	});
+});
+</script> 
+<!--/请在上方写此页面业务相关的脚本-->
+
+<script>
+    //失去焦点时,检查合同名称是否重复
+    $("#ht_name").blur(function(){
+        // $.ajax({
+        //     type: 'GET',
+        //     url: "checkJgName",
+        //     data:{name:$(this).val()},
+        //     dataType: 'json',
+        //     success: function(data){
+        //         if (data.status == 1) {
+        //             layer.alert(data.message);
+        //         } else {
+        //             layer.alert(data.message);
+        //         }
+        //     }
+        // });
+    });
+</script>
+</body>
+</html>
